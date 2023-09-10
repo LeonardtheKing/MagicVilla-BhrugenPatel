@@ -1,0 +1,1390 @@
+2023-09-02 02:12:08.696 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-09-02 02:12:08.849 +01:00 [DBG] Hosting starting
+2023-09-02 02:12:10.974 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 7C63FE5BAC6B0E4450DB5555CD951C5F06C04E54)
+2023-09-02 02:12:11.089 +01:00 [INF] Now listening on: https://localhost:7132
+2023-09-02 02:12:11.089 +01:00 [INF] Now listening on: http://localhost:5050
+2023-09-02 02:12:11.089 +01:00 [DBG] Loaded hosting startup assembly MagicVilla_VillaAPI
+2023-09-02 02:12:11.089 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-09-02 02:12:11.089 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-09-02 02:12:11.090 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-02 02:12:11.091 +01:00 [INF] Hosting environment: Development
+2023-09-02 02:12:11.092 +01:00 [INF] Content root path: C:\Users\admin\source\repos\MagicVilla\MagicVilla_VillaAPI\
+2023-09-02 02:12:11.092 +01:00 [DBG] Hosting started
+2023-09-02 02:12:11.137 +01:00 [DBG] Connection id "0HMTBA6H96BES" accepted.
+2023-09-02 02:12:11.140 +01:00 [DBG] Connection id "0HMTBA6H96BES" started.
+2023-09-02 02:12:11.477 +01:00 [DBG] Connection id "0HMTBA6H96BET" accepted.
+2023-09-02 02:12:11.477 +01:00 [DBG] Connection id "0HMTBA6H96BET" started.
+2023-09-02 02:12:12.193 +01:00 [DBG] Connection id "0HMTBA6H96BEU" accepted.
+2023-09-02 02:12:12.203 +01:00 [DBG] Connection id "0HMTBA6H96BEU" started.
+2023-09-02 02:12:12.530 +01:00 [DBG] Connection id "0HMTBA6H96BEU" received FIN.
+2023-09-02 02:12:12.531 +01:00 [DBG] Connection id "0HMTBA6H96BEV" accepted.
+2023-09-02 02:12:12.531 +01:00 [DBG] Connection id "0HMTBA6H96BEV" started.
+2023-09-02 02:12:12.636 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-09-02 02:12:12.641 +01:00 [DBG] Connection 0HMTBA6H96BEV established using the following protocol: "Tls12"
+2023-09-02 02:12:13.205 +01:00 [DBG] Connection id "0HMTBA6H96BEU" stopped.
+2023-09-02 02:12:13.208 +01:00 [DBG] Connection id "0HMTBA6H96BEU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-02 02:12:13.322 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger - -
+2023-09-02 02:12:13.411 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-09-02 02:12:13.473 +01:00 [DBG] No candidates found for the request path '/swagger'
+2023-09-02 02:12:13.473 +01:00 [DBG] Request did not match any endpoints
+2023-09-02 02:12:13.585 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger - - - 301 0 - 266.6690ms
+2023-09-02 02:12:13.588 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger/index.html - -
+2023-09-02 02:12:13.599 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-09-02 02:12:13.599 +01:00 [DBG] Request did not match any endpoints
+2023-09-02 02:12:13.994 +01:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-09-02 02:12:14.399 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger/swagger-ui-standalone-preset.js - -
+2023-09-02 02:12:14.399 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2023-09-02 02:12:14.399 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/_framework/aspnetcore-browser-refresh.js - -
+2023-09-02 02:12:14.399 +01:00 [DBG] Request did not match any endpoints
+2023-09-02 02:12:14.399 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger/swagger-ui-bundle.js - -
+2023-09-02 02:12:14.402 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2023-09-02 02:12:14.402 +01:00 [DBG] Request did not match any endpoints
+2023-09-02 02:12:14.402 +01:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-09-02 02:12:14.404 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger/index.html - - - 200 - text/html;charset=utf-8 815.9470ms
+2023-09-02 02:12:14.407 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger/swagger-ui.css - -
+2023-09-02 02:12:14.408 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2023-09-02 02:12:14.408 +01:00 [DBG] Request did not match any endpoints
+2023-09-02 02:12:14.408 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/_framework/aspnetcore-browser-refresh.js - - - 200 12370 application/javascript;+charset=utf-8 8.9924ms
+2023-09-02 02:12:14.461 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-09-02 02:12:14.461 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-09-02 02:12:14.462 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger/swagger-ui.css - - - 200 144929 text/css 54.3295ms
+2023-09-02 02:12:14.462 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 62.7638ms
+2023-09-02 02:12:14.467 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/_vs/browserLink - -
+2023-09-02 02:12:14.539 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-09-02 02:12:14.540 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 141.1778ms
+2023-09-02 02:12:14.626 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 158.8196ms
+2023-09-02 02:12:15.052 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger/v1/swagger.json - -
+2023-09-02 02:12:15.052 +01:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-09-02 02:12:15.052 +01:00 [DBG] Request did not match any endpoints
+2023-09-02 02:12:15.529 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 476.8197ms
+2023-09-02 02:12:21.169 +01:00 [DBG] Authentication of the HTTPS connection timed out.
+2023-09-02 02:12:21.169 +01:00 [DBG] Connection id "0HMTBA6H96BES" stopped.
+2023-09-02 02:12:21.169 +01:00 [DBG] Connection id "0HMTBA6H96BES" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-02 02:12:21.498 +01:00 [DBG] Authentication of the HTTPS connection timed out.
+2023-09-02 02:12:21.498 +01:00 [DBG] Connection id "0HMTBA6H96BET" stopped.
+2023-09-02 02:12:21.499 +01:00 [DBG] Connection id "0HMTBA6H96BET" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-02 02:12:23.119 +01:00 [DBG] Connection id "0HMTBA6H96BEV" received FIN.
+2023-09-02 02:12:23.147 +01:00 [DBG] Connection id "0HMTBA6H96BEV" is closed. The last processed stream ID was 15.
+2023-09-02 02:12:23.147 +01:00 [DBG] Connection id "0HMTBA6H96BEV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-02 02:12:23.160 +01:00 [DBG] Connection id "0HMTBA6H96BEV" stopped.
+2023-09-02 02:15:14.119 +01:00 [DBG] Connection id "0HMTBA6H96BF0" accepted.
+2023-09-02 02:15:14.129 +01:00 [DBG] Connection id "0HMTBA6H96BF0" started.
+2023-09-02 02:15:14.238 +01:00 [DBG] Connection id "0HMTBA6H96BF1" accepted.
+2023-09-02 02:15:14.239 +01:00 [DBG] Connection id "0HMTBA6H96BF1" started.
+2023-09-02 02:15:14.239 +01:00 [DBG] Connection id "0HMTBA6H96BF0" received FIN.
+2023-09-02 02:15:14.263 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-09-02 02:15:14.264 +01:00 [DBG] Connection 0HMTBA6H96BF1 established using the following protocol: "Tls12"
+2023-09-02 02:15:14.264 +01:00 [DBG] Connection id "0HMTBA6H96BF0" stopped.
+2023-09-02 02:15:14.265 +01:00 [DBG] Connection id "0HMTBA6H96BF0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-02 02:15:14.271 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7132/api/UserAuth/login application/json-patch+json 62
+2023-09-02 02:15:14.289 +01:00 [DBG] 1 candidate(s) found for the request path '/api/UserAuth/login'
+2023-09-02 02:15:14.298 +01:00 [DBG] Endpoint 'MagicVilla_VillaAPI.Controllers.UseController.Login (MagicVilla_VillaAPI)' with route pattern 'api/UserAuth/login' is valid for the request path '/api/UserAuth/login'
+2023-09-02 02:15:14.298 +01:00 [DBG] Request matched endpoint 'MagicVilla_VillaAPI.Controllers.UseController.Login (MagicVilla_VillaAPI)'
+2023-09-02 02:15:14.298 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-02 02:15:14.304 +01:00 [INF] Executing endpoint 'MagicVilla_VillaAPI.Controllers.UseController.Login (MagicVilla_VillaAPI)'
+2023-09-02 02:15:14.373 +01:00 [INF] Route matched with {action = "Login", controller = "Use"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO) on controller MagicVilla_VillaAPI.Controllers.UseController (MagicVilla_VillaAPI).
+2023-09-02 02:15:14.374 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-09-02 02:15:14.374 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-09-02 02:15:14.374 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-09-02 02:15:14.374 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-09-02 02:15:14.374 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-09-02 02:15:14.375 +01:00 [DBG] Executing controller factory for controller MagicVilla_VillaAPI.Controllers.UseController (MagicVilla_VillaAPI)
+2023-09-02 02:15:14.706 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-09-02 02:15:14.756 +01:00 [DBG] Executed controller factory for controller MagicVilla_VillaAPI.Controllers.UseController (MagicVilla_VillaAPI)
+2023-09-02 02:15:14.787 +01:00 [DBG] Attempting to bind parameter 'model' of type 'MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO' ...
+2023-09-02 02:15:14.793 +01:00 [DBG] Attempting to bind parameter 'model' of type 'MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO' using the name '' in request data ...
+2023-09-02 02:15:14.795 +01:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2023-09-02 02:15:14.796 +01:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2023-09-02 02:15:14.831 +01:00 [DBG] Connection id "0HMTBA6H96BF1", Request id "0HMTBA6H96BF1:00000001": started reading request body.
+2023-09-02 02:15:14.831 +01:00 [DBG] Connection id "0HMTBA6H96BF1", Request id "0HMTBA6H96BF1:00000001": done reading request body.
+2023-09-02 02:15:15.076 +01:00 [DBG] Done attempting to bind parameter 'model' of type 'MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO'.
+2023-09-02 02:15:15.076 +01:00 [DBG] Done attempting to bind parameter 'model' of type 'MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO'.
+2023-09-02 02:15:15.076 +01:00 [DBG] Attempting to validate the bound parameter 'model' of type 'MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO' ...
+2023-09-02 02:15:15.090 +01:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO'.
+2023-09-02 02:15:16.556 +01:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+2023-09-02 02:15:16.704 +01:00 [DBG] Compiling query expression: 
+'DbSet<LocalUser>()
+    .FirstOrDefault(u => u.UserName.ToLower() == __ToLower_0 && u.Password == __loginRequestDTO_Password_1)'
+2023-09-02 02:15:17.291 +01:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<LocalUser>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: LocalUser.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: LocalUser.Name (string) Required, 1], [Property: LocalUser.Password (string) Required, 2], [Property: LocalUser.Role (string) Required, 3], [Property: LocalUser.UserName (string) Required, 4] }
+        SELECT TOP(1) l.Id, l.Name, l.Password, l.Role, l.UserName
+        FROM LocalUsers AS l
+        WHERE (LOWER(l.UserName) == @__ToLower_0) && (l.Password == @__loginRequestDTO_Password_1)), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, LocalUser>, 
+    MagicVilla_VillaAPI.Data.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2023-09-02 02:15:17.378 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-09-02 02:15:17.445 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (71ms).
+2023-09-02 02:15:17.466 +01:00 [DBG] Opening connection to database 'Villas' on server 'DESKTOP-BC346OD\SQLEXPRESS'.
+2023-09-02 02:15:18.127 +01:00 [DBG] Opened connection to database 'Villas' on server 'DESKTOP-BC346OD\SQLEXPRESS'.
+2023-09-02 02:15:18.153 +01:00 [DBG] Executing DbCommand [Parameters=[@__ToLower_0='?' (Size = 4000), @__loginRequestDTO_Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Name], [l].[Password], [l].[Role], [l].[UserName]
+FROM [LocalUsers] AS [l]
+WHERE (LOWER([l].[UserName]) = @__ToLower_0) AND ([l].[Password] = @__loginRequestDTO_Password_1)
+2023-09-02 02:15:18.298 +01:00 [INF] Executed DbCommand (159ms) [Parameters=[@__ToLower_0='?' (Size = 4000), @__loginRequestDTO_Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Name], [l].[Password], [l].[Role], [l].[UserName]
+FROM [LocalUsers] AS [l]
+WHERE (LOWER([l].[UserName]) = @__ToLower_0) AND ([l].[Password] = @__loginRequestDTO_Password_1)
+2023-09-02 02:15:18.329 +01:00 [DBG] Context 'ApplicationDbContext' started tracking 'LocalUser' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-02 02:15:18.377 +01:00 [DBG] A data reader was disposed.
+2023-09-02 02:15:18.383 +01:00 [DBG] Closing connection to database 'Villas' on server 'DESKTOP-BC346OD\SQLEXPRESS'.
+2023-09-02 02:15:18.398 +01:00 [DBG] Closed connection to database 'Villas' on server 'DESKTOP-BC346OD\SQLEXPRESS'.
+2023-09-02 02:15:18.598 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-09-02 02:15:18.602 +01:00 [DBG] No information found on request to perform content negotiation.
+2023-09-02 02:15:18.602 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-09-02 02:15:18.602 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-09-02 02:15:18.603 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-09-02 02:15:18.603 +01:00 [INF] Executing OkObjectResult, writing value of type 'MagicVilla_VillaAPI.Models.APIResponse'.
+2023-09-02 02:15:18.727 +01:00 [INF] Executed action MagicVilla_VillaAPI.Controllers.UseController.Login (MagicVilla_VillaAPI) in 4338.7799ms
+2023-09-02 02:15:18.728 +01:00 [INF] Executed endpoint 'MagicVilla_VillaAPI.Controllers.UseController.Login (MagicVilla_VillaAPI)'
+2023-09-02 02:15:18.745 +01:00 [DBG] 'ApplicationDbContext' disposed.
+2023-09-02 02:15:18.757 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7132/api/UserAuth/login application/json-patch+json 62 - 200 376 application/json;+charset=utf-8 4485.7115ms
+2023-09-02 02:15:28.551 +01:00 [DBG] Connection id "0HMTBA6H96BF1" received FIN.
+2023-09-02 02:15:28.551 +01:00 [DBG] Connection id "0HMTBA6H96BF1" is closed. The last processed stream ID was 1.
+2023-09-02 02:15:28.551 +01:00 [DBG] Connection id "0HMTBA6H96BF1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-02 02:15:28.566 +01:00 [DBG] Connection id "0HMTBA6H96BF1" stopped.
+2023-09-02 02:23:22.548 +01:00 [DBG] Connection id "0HMTBA6H96BF2" accepted.
+2023-09-02 02:23:22.548 +01:00 [DBG] Connection id "0HMTBA6H96BF2" started.
+2023-09-02 02:23:22.588 +01:00 [DBG] Connection id "0HMTBA6H96BF2" received FIN.
+2023-09-02 02:23:22.597 +01:00 [DBG] Connection id "0HMTBA6H96BF3" accepted.
+2023-09-02 02:23:22.597 +01:00 [DBG] Connection id "0HMTBA6H96BF3" started.
+2023-09-02 02:23:22.598 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-09-02 02:23:22.599 +01:00 [DBG] Connection id "0HMTBA6H96BF2" stopped.
+2023-09-02 02:23:22.599 +01:00 [DBG] Connection id "0HMTBA6H96BF2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-02 02:23:22.610 +01:00 [DBG] Connection 0HMTBA6H96BF3 established using the following protocol: "Tls12"
+2023-09-02 02:23:22.617 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7132/api/UserAuth/login application/json-patch+json 62
+2023-09-02 02:23:22.624 +01:00 [DBG] 1 candidate(s) found for the request path '/api/UserAuth/login'
+2023-09-02 02:23:22.624 +01:00 [DBG] Endpoint 'MagicVilla_VillaAPI.Controllers.UseController.Login (MagicVilla_VillaAPI)' with route pattern 'api/UserAuth/login' is valid for the request path '/api/UserAuth/login'
+2023-09-02 02:23:22.624 +01:00 [DBG] Request matched endpoint 'MagicVilla_VillaAPI.Controllers.UseController.Login (MagicVilla_VillaAPI)'
+2023-09-02 02:23:22.625 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-02 02:23:22.625 +01:00 [INF] Executing endpoint 'MagicVilla_VillaAPI.Controllers.UseController.Login (MagicVilla_VillaAPI)'
+2023-09-02 02:23:22.625 +01:00 [INF] Route matched with {action = "Login", controller = "Use"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO) on controller MagicVilla_VillaAPI.Controllers.UseController (MagicVilla_VillaAPI).
+2023-09-02 02:23:22.625 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-09-02 02:23:22.625 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-09-02 02:23:22.625 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-09-02 02:23:22.625 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-09-02 02:23:22.625 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-09-02 02:23:22.625 +01:00 [DBG] Executing controller factory for controller MagicVilla_VillaAPI.Controllers.UseController (MagicVilla_VillaAPI)
+2023-09-02 02:23:22.635 +01:00 [DBG] Executed controller factory for controller MagicVilla_VillaAPI.Controllers.UseController (MagicVilla_VillaAPI)
+2023-09-02 02:23:22.636 +01:00 [DBG] Attempting to bind parameter 'model' of type 'MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO' ...
+2023-09-02 02:23:22.636 +01:00 [DBG] Attempting to bind parameter 'model' of type 'MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO' using the name '' in request data ...
+2023-09-02 02:23:22.636 +01:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2023-09-02 02:23:22.636 +01:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2023-09-02 02:23:22.636 +01:00 [DBG] Connection id "0HMTBA6H96BF3", Request id "0HMTBA6H96BF3:00000001": started reading request body.
+2023-09-02 02:23:22.636 +01:00 [DBG] Connection id "0HMTBA6H96BF3", Request id "0HMTBA6H96BF3:00000001": done reading request body.
+2023-09-02 02:23:22.636 +01:00 [DBG] Done attempting to bind parameter 'model' of type 'MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO'.
+2023-09-02 02:23:22.636 +01:00 [DBG] Done attempting to bind parameter 'model' of type 'MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO'.
+2023-09-02 02:23:22.636 +01:00 [DBG] Attempting to validate the bound parameter 'model' of type 'MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO' ...
+2023-09-02 02:23:22.637 +01:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO'.
+2023-09-02 02:23:22.646 +01:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+2023-09-02 02:23:22.659 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-09-02 02:23:22.659 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-09-02 02:23:22.659 +01:00 [DBG] Opening connection to database 'Villas' on server 'DESKTOP-BC346OD\SQLEXPRESS'.
+2023-09-02 02:23:22.721 +01:00 [DBG] Opened connection to database 'Villas' on server 'DESKTOP-BC346OD\SQLEXPRESS'.
+2023-09-02 02:23:22.721 +01:00 [DBG] Executing DbCommand [Parameters=[@__ToLower_0='?' (Size = 4000), @__loginRequestDTO_Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Name], [l].[Password], [l].[Role], [l].[UserName]
+FROM [LocalUsers] AS [l]
+WHERE (LOWER([l].[UserName]) = @__ToLower_0) AND ([l].[Password] = @__loginRequestDTO_Password_1)
+2023-09-02 02:23:22.732 +01:00 [INF] Executed DbCommand (11ms) [Parameters=[@__ToLower_0='?' (Size = 4000), @__loginRequestDTO_Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Name], [l].[Password], [l].[Role], [l].[UserName]
+FROM [LocalUsers] AS [l]
+WHERE (LOWER([l].[UserName]) = @__ToLower_0) AND ([l].[Password] = @__loginRequestDTO_Password_1)
+2023-09-02 02:23:22.733 +01:00 [DBG] Context 'ApplicationDbContext' started tracking 'LocalUser' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-02 02:23:22.733 +01:00 [DBG] A data reader was disposed.
+2023-09-02 02:23:22.733 +01:00 [DBG] Closing connection to database 'Villas' on server 'DESKTOP-BC346OD\SQLEXPRESS'.
+2023-09-02 02:23:22.733 +01:00 [DBG] Closed connection to database 'Villas' on server 'DESKTOP-BC346OD\SQLEXPRESS'.
+2023-09-02 02:23:22.733 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-09-02 02:23:22.733 +01:00 [DBG] No information found on request to perform content negotiation.
+2023-09-02 02:23:22.733 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-09-02 02:23:22.733 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-09-02 02:23:22.733 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-09-02 02:23:22.733 +01:00 [INF] Executing OkObjectResult, writing value of type 'MagicVilla_VillaAPI.Models.APIResponse'.
+2023-09-02 02:23:22.734 +01:00 [INF] Executed action MagicVilla_VillaAPI.Controllers.UseController.Login (MagicVilla_VillaAPI) in 108.6468ms
+2023-09-02 02:23:22.734 +01:00 [INF] Executed endpoint 'MagicVilla_VillaAPI.Controllers.UseController.Login (MagicVilla_VillaAPI)'
+2023-09-02 02:23:22.734 +01:00 [DBG] 'ApplicationDbContext' disposed.
+2023-09-02 02:23:22.734 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7132/api/UserAuth/login application/json-patch+json 62 - 200 376 application/json;+charset=utf-8 117.9654ms
+2023-09-02 02:24:26.636 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/api/villaAPI - -
+2023-09-02 02:24:26.638 +01:00 [DBG] 1 candidate(s) found for the request path '/api/villaAPI'
+2023-09-02 02:24:26.638 +01:00 [DBG] Endpoint 'MagicVilla_VillaAPI.Controllers.VillaAPIController.GetVillas (MagicVilla_VillaAPI)' with route pattern 'api/villaAPI' is valid for the request path '/api/villaAPI'
+2023-09-02 02:24:26.638 +01:00 [DBG] Request matched endpoint 'MagicVilla_VillaAPI.Controllers.VillaAPIController.GetVillas (MagicVilla_VillaAPI)'
+2023-09-02 02:24:26.638 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-02 02:24:26.661 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-09-02 02:24:26.670 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-09-02 02:24:26.677 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/api/villaAPI - - - 500 - text/plain;+charset=utf-8 41.3502ms
+2023-09-02 02:25:23.617 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/api/villaAPI/1 - -
+2023-09-02 02:25:23.618 +01:00 [DBG] 1 candidate(s) found for the request path '/api/villaAPI/1'
+2023-09-02 02:25:23.619 +01:00 [DBG] Endpoint 'MagicVilla_VillaAPI.Controllers.VillaAPIController.GetVilla (MagicVilla_VillaAPI)' with route pattern 'api/villaAPI/{id:int}' is valid for the request path '/api/villaAPI/1'
+2023-09-02 02:25:23.619 +01:00 [DBG] Request matched endpoint 'MagicVilla_VillaAPI.Controllers.VillaAPIController.GetVilla (MagicVilla_VillaAPI)'
+2023-09-02 02:25:23.619 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-02 02:25:23.620 +01:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (admin)
+2023-09-02 02:25:23.621 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-09-02 02:25:23.622 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/api/villaAPI/1 - - - 500 - text/plain;+charset=utf-8 4.7436ms
+2023-09-02 02:26:24.868 +01:00 [DBG] Connection id "0HMTBA6H96BF3" received FIN.
+2023-09-02 02:26:24.870 +01:00 [DBG] Connection id "0HMTBA6H96BF3" is closed. The last processed stream ID was 5.
+2023-09-02 02:26:24.874 +01:00 [DBG] Connection id "0HMTBA6H96BF3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-02 02:26:24.889 +01:00 [DBG] Connection id "0HMTBA6H96BF3" stopped.
+2023-09-02 02:52:22.692 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-09-02 02:52:22.834 +01:00 [DBG] Hosting starting
+2023-09-02 02:52:23.087 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 7C63FE5BAC6B0E4450DB5555CD951C5F06C04E54)
+2023-09-02 02:52:23.142 +01:00 [INF] Now listening on: https://localhost:7132
+2023-09-02 02:52:23.142 +01:00 [INF] Now listening on: http://localhost:5050
+2023-09-02 02:52:23.142 +01:00 [DBG] Loaded hosting startup assembly MagicVilla_VillaAPI
+2023-09-02 02:52:23.142 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-09-02 02:52:23.142 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-09-02 02:52:23.142 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-02 02:52:23.143 +01:00 [INF] Hosting environment: Development
+2023-09-02 02:52:23.144 +01:00 [INF] Content root path: C:\Users\admin\source\repos\MagicVilla\MagicVilla_VillaAPI\
+2023-09-02 02:52:23.144 +01:00 [DBG] Hosting started
+2023-09-02 02:52:23.169 +01:00 [DBG] Connection id "0HMTBAT044PQ2" accepted.
+2023-09-02 02:52:23.169 +01:00 [DBG] Connection id "0HMTBAT044PQ1" accepted.
+2023-09-02 02:52:23.170 +01:00 [DBG] Connection id "0HMTBAT044PQ2" started.
+2023-09-02 02:52:23.170 +01:00 [DBG] Connection id "0HMTBAT044PQ1" started.
+2023-09-02 02:52:23.183 +01:00 [DBG] Connection id "0HMTBAT044PQ1" received FIN.
+2023-09-02 02:52:23.183 +01:00 [DBG] Connection id "0HMTBAT044PQ2" received FIN.
+2023-09-02 02:52:23.203 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-09-02 02:52:23.203 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-09-02 02:52:23.264 +01:00 [DBG] Connection id "0HMTBAT044PQ2" stopped.
+2023-09-02 02:52:23.264 +01:00 [DBG] Connection id "0HMTBAT044PQ1" stopped.
+2023-09-02 02:52:23.270 +01:00 [DBG] Connection id "0HMTBAT044PQ2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-02 02:52:23.270 +01:00 [DBG] Connection id "0HMTBAT044PQ1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-02 02:52:23.722 +01:00 [DBG] Connection id "0HMTBAT044PQ3" accepted.
+2023-09-02 02:52:23.722 +01:00 [DBG] Connection id "0HMTBAT044PQ3" started.
+2023-09-02 02:52:23.917 +01:00 [DBG] Connection id "0HMTBAT044PQ3" received FIN.
+2023-09-02 02:52:23.919 +01:00 [DBG] Connection id "0HMTBAT044PQ4" accepted.
+2023-09-02 02:52:23.919 +01:00 [DBG] Connection id "0HMTBAT044PQ4" started.
+2023-09-02 02:52:23.923 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-09-02 02:52:23.924 +01:00 [DBG] Connection id "0HMTBAT044PQ3" stopped.
+2023-09-02 02:52:23.925 +01:00 [DBG] Connection id "0HMTBAT044PQ3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-02 02:52:23.954 +01:00 [DBG] Connection 0HMTBAT044PQ4 established using the following protocol: "Tls12"
+2023-09-02 02:52:24.095 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger - -
+2023-09-02 02:52:24.192 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-09-02 02:52:24.266 +01:00 [DBG] No candidates found for the request path '/swagger'
+2023-09-02 02:52:24.266 +01:00 [DBG] Request did not match any endpoints
+2023-09-02 02:52:24.356 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger - - - 301 0 - 273.2185ms
+2023-09-02 02:52:24.366 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger/index.html - -
+2023-09-02 02:52:24.367 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-09-02 02:52:24.367 +01:00 [DBG] Request did not match any endpoints
+2023-09-02 02:52:24.699 +01:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-09-02 02:52:24.973 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger/swagger-ui-bundle.js - -
+2023-09-02 02:52:24.973 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger/swagger-ui.css - -
+2023-09-02 02:52:24.973 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2023-09-02 02:52:24.973 +01:00 [DBG] Request did not match any endpoints
+2023-09-02 02:52:24.973 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2023-09-02 02:52:24.973 +01:00 [DBG] Request did not match any endpoints
+2023-09-02 02:52:24.973 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger/swagger-ui-standalone-preset.js - -
+2023-09-02 02:52:24.974 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2023-09-02 02:52:24.974 +01:00 [DBG] Request did not match any endpoints
+2023-09-02 02:52:24.974 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/_framework/aspnetcore-browser-refresh.js - -
+2023-09-02 02:52:24.976 +01:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-09-02 02:52:24.979 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger/index.html - - - 200 - text/html;charset=utf-8 611.9768ms
+2023-09-02 02:52:25.014 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/_framework/aspnetcore-browser-refresh.js - - - 200 12370 application/javascript;+charset=utf-8 40.4925ms
+2023-09-02 02:52:25.041 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-09-02 02:52:25.041 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger/swagger-ui.css - - - 200 144929 text/css 68.2000ms
+2023-09-02 02:52:25.058 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/_vs/browserLink - -
+2023-09-02 02:52:25.097 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-09-02 02:52:25.101 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 127.8325ms
+2023-09-02 02:52:25.113 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-09-02 02:52:25.113 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 139.8720ms
+2023-09-02 02:52:25.171 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 112.8537ms
+2023-09-02 02:52:25.655 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger/v1/swagger.json - -
+2023-09-02 02:52:25.656 +01:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-09-02 02:52:25.656 +01:00 [DBG] Request did not match any endpoints
+2023-09-02 02:52:26.137 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 481.6536ms
+2023-09-02 02:52:55.811 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7132/api/UserAuth/login application/json-patch+json 61
+2023-09-02 02:52:55.832 +01:00 [DBG] 1 candidate(s) found for the request path '/api/UserAuth/login'
+2023-09-02 02:52:55.843 +01:00 [DBG] Endpoint 'MagicVilla_VillaAPI.Controllers.UseController.Login (MagicVilla_VillaAPI)' with route pattern 'api/UserAuth/login' is valid for the request path '/api/UserAuth/login'
+2023-09-02 02:52:55.844 +01:00 [DBG] Request matched endpoint 'MagicVilla_VillaAPI.Controllers.UseController.Login (MagicVilla_VillaAPI)'
+2023-09-02 02:52:55.844 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-02 02:52:55.847 +01:00 [INF] Executing endpoint 'MagicVilla_VillaAPI.Controllers.UseController.Login (MagicVilla_VillaAPI)'
+2023-09-02 02:52:55.899 +01:00 [INF] Route matched with {action = "Login", controller = "Use"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO) on controller MagicVilla_VillaAPI.Controllers.UseController (MagicVilla_VillaAPI).
+2023-09-02 02:52:55.900 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-09-02 02:52:55.900 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-09-02 02:52:55.900 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-09-02 02:52:55.900 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-09-02 02:52:55.900 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-09-02 02:52:55.902 +01:00 [DBG] Executing controller factory for controller MagicVilla_VillaAPI.Controllers.UseController (MagicVilla_VillaAPI)
+2023-09-02 02:52:56.134 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-09-02 02:52:56.179 +01:00 [DBG] Executed controller factory for controller MagicVilla_VillaAPI.Controllers.UseController (MagicVilla_VillaAPI)
+2023-09-02 02:52:56.194 +01:00 [DBG] Attempting to bind parameter 'model' of type 'MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO' ...
+2023-09-02 02:52:56.198 +01:00 [DBG] Attempting to bind parameter 'model' of type 'MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO' using the name '' in request data ...
+2023-09-02 02:52:56.199 +01:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2023-09-02 02:52:56.202 +01:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2023-09-02 02:52:56.224 +01:00 [DBG] Connection id "0HMTBAT044PQ4", Request id "0HMTBAT044PQ4:00000011": started reading request body.
+2023-09-02 02:52:56.224 +01:00 [DBG] Connection id "0HMTBAT044PQ4", Request id "0HMTBAT044PQ4:00000011": done reading request body.
+2023-09-02 02:52:56.419 +01:00 [DBG] Done attempting to bind parameter 'model' of type 'MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO'.
+2023-09-02 02:52:56.419 +01:00 [DBG] Done attempting to bind parameter 'model' of type 'MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO'.
+2023-09-02 02:52:56.419 +01:00 [DBG] Attempting to validate the bound parameter 'model' of type 'MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO' ...
+2023-09-02 02:52:56.428 +01:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO'.
+2023-09-02 02:52:57.780 +01:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+2023-09-02 02:52:57.908 +01:00 [DBG] Compiling query expression: 
+'DbSet<LocalUser>()
+    .FirstOrDefault(u => u.UserName.ToLower() == __ToLower_0 && u.Password == __loginRequestDTO_Password_1)'
+2023-09-02 02:52:58.581 +01:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<LocalUser>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: LocalUser.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: LocalUser.Name (string) Required, 1], [Property: LocalUser.Password (string) Required, 2], [Property: LocalUser.Role (string) Required, 3], [Property: LocalUser.UserName (string) Required, 4] }
+        SELECT TOP(1) l.Id, l.Name, l.Password, l.Role, l.UserName
+        FROM LocalUsers AS l
+        WHERE (LOWER(l.UserName) == @__ToLower_0) && (l.Password == @__loginRequestDTO_Password_1)), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, LocalUser>, 
+    MagicVilla_VillaAPI.Data.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2023-09-02 02:52:58.689 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-09-02 02:52:58.748 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (55ms).
+2023-09-02 02:52:58.768 +01:00 [DBG] Opening connection to database 'Villas' on server 'DESKTOP-BC346OD\SQLEXPRESS'.
+2023-09-02 02:52:59.288 +01:00 [DBG] Opened connection to database 'Villas' on server 'DESKTOP-BC346OD\SQLEXPRESS'.
+2023-09-02 02:52:59.308 +01:00 [DBG] Executing DbCommand [Parameters=[@__ToLower_0='?' (Size = 4000), @__loginRequestDTO_Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Name], [l].[Password], [l].[Role], [l].[UserName]
+FROM [LocalUsers] AS [l]
+WHERE (LOWER([l].[UserName]) = @__ToLower_0) AND ([l].[Password] = @__loginRequestDTO_Password_1)
+2023-09-02 02:52:59.412 +01:00 [INF] Executed DbCommand (110ms) [Parameters=[@__ToLower_0='?' (Size = 4000), @__loginRequestDTO_Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Name], [l].[Password], [l].[Role], [l].[UserName]
+FROM [LocalUsers] AS [l]
+WHERE (LOWER([l].[UserName]) = @__ToLower_0) AND ([l].[Password] = @__loginRequestDTO_Password_1)
+2023-09-02 02:52:59.438 +01:00 [DBG] A data reader was disposed.
+2023-09-02 02:52:59.443 +01:00 [DBG] Closing connection to database 'Villas' on server 'DESKTOP-BC346OD\SQLEXPRESS'.
+2023-09-02 02:52:59.459 +01:00 [DBG] Closed connection to database 'Villas' on server 'DESKTOP-BC346OD\SQLEXPRESS'.
+2023-09-02 02:52:59.463 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-09-02 02:52:59.469 +01:00 [DBG] No information found on request to perform content negotiation.
+2023-09-02 02:52:59.469 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-09-02 02:52:59.470 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-09-02 02:52:59.470 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-09-02 02:52:59.471 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'MagicVilla_VillaAPI.Models.APIResponse'.
+2023-09-02 02:52:59.555 +01:00 [INF] Executed action MagicVilla_VillaAPI.Controllers.UseController.Login (MagicVilla_VillaAPI) in 3643.4558ms
+2023-09-02 02:52:59.556 +01:00 [INF] Executed endpoint 'MagicVilla_VillaAPI.Controllers.UseController.Login (MagicVilla_VillaAPI)'
+2023-09-02 02:52:59.565 +01:00 [DBG] 'ApplicationDbContext' disposed.
+2023-09-02 02:52:59.573 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7132/api/UserAuth/login application/json-patch+json 61 - 400 104 application/json;+charset=utf-8 3761.2870ms
+2023-09-02 02:53:25.736 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7132/api/UserAuth/login application/json-patch+json 62
+2023-09-02 02:53:25.746 +01:00 [DBG] 1 candidate(s) found for the request path '/api/UserAuth/login'
+2023-09-02 02:53:25.746 +01:00 [DBG] Endpoint 'MagicVilla_VillaAPI.Controllers.UseController.Login (MagicVilla_VillaAPI)' with route pattern 'api/UserAuth/login' is valid for the request path '/api/UserAuth/login'
+2023-09-02 02:53:25.746 +01:00 [DBG] Request matched endpoint 'MagicVilla_VillaAPI.Controllers.UseController.Login (MagicVilla_VillaAPI)'
+2023-09-02 02:53:25.746 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-02 02:53:25.746 +01:00 [INF] Executing endpoint 'MagicVilla_VillaAPI.Controllers.UseController.Login (MagicVilla_VillaAPI)'
+2023-09-02 02:53:25.747 +01:00 [INF] Route matched with {action = "Login", controller = "Use"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO) on controller MagicVilla_VillaAPI.Controllers.UseController (MagicVilla_VillaAPI).
+2023-09-02 02:53:25.747 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-09-02 02:53:25.747 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-09-02 02:53:25.747 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-09-02 02:53:25.747 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-09-02 02:53:25.747 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-09-02 02:53:25.747 +01:00 [DBG] Executing controller factory for controller MagicVilla_VillaAPI.Controllers.UseController (MagicVilla_VillaAPI)
+2023-09-02 02:53:25.764 +01:00 [DBG] Executed controller factory for controller MagicVilla_VillaAPI.Controllers.UseController (MagicVilla_VillaAPI)
+2023-09-02 02:53:25.764 +01:00 [DBG] Attempting to bind parameter 'model' of type 'MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO' ...
+2023-09-02 02:53:25.764 +01:00 [DBG] Attempting to bind parameter 'model' of type 'MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO' using the name '' in request data ...
+2023-09-02 02:53:25.765 +01:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2023-09-02 02:53:25.765 +01:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2023-09-02 02:53:25.765 +01:00 [DBG] Connection id "0HMTBAT044PQ4", Request id "0HMTBAT044PQ4:00000013": started reading request body.
+2023-09-02 02:53:25.765 +01:00 [DBG] Connection id "0HMTBAT044PQ4", Request id "0HMTBAT044PQ4:00000013": done reading request body.
+2023-09-02 02:53:25.765 +01:00 [DBG] Done attempting to bind parameter 'model' of type 'MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO'.
+2023-09-02 02:53:25.765 +01:00 [DBG] Done attempting to bind parameter 'model' of type 'MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO'.
+2023-09-02 02:53:25.765 +01:00 [DBG] Attempting to validate the bound parameter 'model' of type 'MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO' ...
+2023-09-02 02:53:25.765 +01:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO'.
+2023-09-02 02:53:25.767 +01:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+2023-09-02 02:53:25.772 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-09-02 02:53:25.773 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-09-02 02:53:25.773 +01:00 [DBG] Opening connection to database 'Villas' on server 'DESKTOP-BC346OD\SQLEXPRESS'.
+2023-09-02 02:53:25.775 +01:00 [DBG] Opened connection to database 'Villas' on server 'DESKTOP-BC346OD\SQLEXPRESS'.
+2023-09-02 02:53:25.776 +01:00 [DBG] Executing DbCommand [Parameters=[@__ToLower_0='?' (Size = 4000), @__loginRequestDTO_Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Name], [l].[Password], [l].[Role], [l].[UserName]
+FROM [LocalUsers] AS [l]
+WHERE (LOWER([l].[UserName]) = @__ToLower_0) AND ([l].[Password] = @__loginRequestDTO_Password_1)
+2023-09-02 02:53:25.784 +01:00 [INF] Executed DbCommand (8ms) [Parameters=[@__ToLower_0='?' (Size = 4000), @__loginRequestDTO_Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Name], [l].[Password], [l].[Role], [l].[UserName]
+FROM [LocalUsers] AS [l]
+WHERE (LOWER([l].[UserName]) = @__ToLower_0) AND ([l].[Password] = @__loginRequestDTO_Password_1)
+2023-09-02 02:53:25.820 +01:00 [DBG] Context 'ApplicationDbContext' started tracking 'LocalUser' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-02 02:53:25.859 +01:00 [DBG] A data reader was disposed.
+2023-09-02 02:53:25.859 +01:00 [DBG] Closing connection to database 'Villas' on server 'DESKTOP-BC346OD\SQLEXPRESS'.
+2023-09-02 02:53:25.860 +01:00 [DBG] Closed connection to database 'Villas' on server 'DESKTOP-BC346OD\SQLEXPRESS'.
+2023-09-02 02:53:26.052 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-09-02 02:53:26.052 +01:00 [DBG] No information found on request to perform content negotiation.
+2023-09-02 02:53:26.052 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-09-02 02:53:26.053 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-09-02 02:53:26.053 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-09-02 02:53:26.053 +01:00 [INF] Executing OkObjectResult, writing value of type 'MagicVilla_VillaAPI.Models.APIResponse'.
+2023-09-02 02:53:26.056 +01:00 [INF] Executed action MagicVilla_VillaAPI.Controllers.UseController.Login (MagicVilla_VillaAPI) in 308.5718ms
+2023-09-02 02:53:26.056 +01:00 [INF] Executed endpoint 'MagicVilla_VillaAPI.Controllers.UseController.Login (MagicVilla_VillaAPI)'
+2023-09-02 02:53:26.056 +01:00 [DBG] 'ApplicationDbContext' disposed.
+2023-09-02 02:53:26.056 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7132/api/UserAuth/login application/json-patch+json 62 - 200 376 application/json;+charset=utf-8 320.5229ms
+2023-09-02 03:06:12.841 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7132/api/UserAuth/login application/json-patch+json 62
+2023-09-02 03:06:12.844 +01:00 [DBG] 1 candidate(s) found for the request path '/api/UserAuth/login'
+2023-09-02 03:06:12.845 +01:00 [DBG] Endpoint 'MagicVilla_VillaAPI.Controllers.UseController.Login (MagicVilla_VillaAPI)' with route pattern 'api/UserAuth/login' is valid for the request path '/api/UserAuth/login'
+2023-09-02 03:06:12.846 +01:00 [DBG] Request matched endpoint 'MagicVilla_VillaAPI.Controllers.UseController.Login (MagicVilla_VillaAPI)'
+2023-09-02 03:06:12.846 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-02 03:06:12.846 +01:00 [INF] Executing endpoint 'MagicVilla_VillaAPI.Controllers.UseController.Login (MagicVilla_VillaAPI)'
+2023-09-02 03:06:12.847 +01:00 [INF] Route matched with {action = "Login", controller = "Use"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO) on controller MagicVilla_VillaAPI.Controllers.UseController (MagicVilla_VillaAPI).
+2023-09-02 03:06:12.847 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-09-02 03:06:12.847 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-09-02 03:06:12.852 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-09-02 03:06:12.853 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-09-02 03:06:12.853 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-09-02 03:06:12.854 +01:00 [DBG] Executing controller factory for controller MagicVilla_VillaAPI.Controllers.UseController (MagicVilla_VillaAPI)
+2023-09-02 03:06:12.856 +01:00 [DBG] Executed controller factory for controller MagicVilla_VillaAPI.Controllers.UseController (MagicVilla_VillaAPI)
+2023-09-02 03:06:12.856 +01:00 [DBG] Attempting to bind parameter 'model' of type 'MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO' ...
+2023-09-02 03:06:12.856 +01:00 [DBG] Attempting to bind parameter 'model' of type 'MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO' using the name '' in request data ...
+2023-09-02 03:06:12.856 +01:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2023-09-02 03:06:12.856 +01:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2023-09-02 03:06:12.856 +01:00 [DBG] Connection id "0HMTBAT044PQ4", Request id "0HMTBAT044PQ4:00000015": started reading request body.
+2023-09-02 03:06:12.856 +01:00 [DBG] Connection id "0HMTBAT044PQ4", Request id "0HMTBAT044PQ4:00000015": done reading request body.
+2023-09-02 03:06:12.856 +01:00 [DBG] Done attempting to bind parameter 'model' of type 'MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO'.
+2023-09-02 03:06:12.856 +01:00 [DBG] Done attempting to bind parameter 'model' of type 'MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO'.
+2023-09-02 03:06:12.856 +01:00 [DBG] Attempting to validate the bound parameter 'model' of type 'MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO' ...
+2023-09-02 03:06:12.857 +01:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO'.
+2023-09-02 03:06:12.914 +01:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+2023-09-02 03:06:12.917 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-09-02 03:06:12.917 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-09-02 03:06:12.917 +01:00 [DBG] Opening connection to database 'Villas' on server 'DESKTOP-BC346OD\SQLEXPRESS'.
+2023-09-02 03:06:12.993 +01:00 [DBG] Opened connection to database 'Villas' on server 'DESKTOP-BC346OD\SQLEXPRESS'.
+2023-09-02 03:06:12.994 +01:00 [DBG] Executing DbCommand [Parameters=[@__ToLower_0='?' (Size = 4000), @__loginRequestDTO_Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Name], [l].[Password], [l].[Role], [l].[UserName]
+FROM [LocalUsers] AS [l]
+WHERE (LOWER([l].[UserName]) = @__ToLower_0) AND ([l].[Password] = @__loginRequestDTO_Password_1)
+2023-09-02 03:06:13.005 +01:00 [INF] Executed DbCommand (12ms) [Parameters=[@__ToLower_0='?' (Size = 4000), @__loginRequestDTO_Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Name], [l].[Password], [l].[Role], [l].[UserName]
+FROM [LocalUsers] AS [l]
+WHERE (LOWER([l].[UserName]) = @__ToLower_0) AND ([l].[Password] = @__loginRequestDTO_Password_1)
+2023-09-02 03:06:13.006 +01:00 [DBG] Context 'ApplicationDbContext' started tracking 'LocalUser' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-02 03:06:13.006 +01:00 [DBG] A data reader was disposed.
+2023-09-02 03:06:13.006 +01:00 [DBG] Closing connection to database 'Villas' on server 'DESKTOP-BC346OD\SQLEXPRESS'.
+2023-09-02 03:06:13.006 +01:00 [DBG] Closed connection to database 'Villas' on server 'DESKTOP-BC346OD\SQLEXPRESS'.
+2023-09-02 03:06:13.006 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-09-02 03:06:13.006 +01:00 [DBG] No information found on request to perform content negotiation.
+2023-09-02 03:06:13.006 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-09-02 03:06:13.006 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-09-02 03:06:13.006 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-09-02 03:06:13.006 +01:00 [INF] Executing OkObjectResult, writing value of type 'MagicVilla_VillaAPI.Models.APIResponse'.
+2023-09-02 03:06:13.006 +01:00 [INF] Executed action MagicVilla_VillaAPI.Controllers.UseController.Login (MagicVilla_VillaAPI) in 153.6893ms
+2023-09-02 03:06:13.007 +01:00 [INF] Executed endpoint 'MagicVilla_VillaAPI.Controllers.UseController.Login (MagicVilla_VillaAPI)'
+2023-09-02 03:06:13.007 +01:00 [DBG] 'ApplicationDbContext' disposed.
+2023-09-02 03:06:13.007 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7132/api/UserAuth/login application/json-patch+json 62 - 200 376 application/json;+charset=utf-8 165.7040ms
+2023-09-02 03:06:47.956 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/api/villaAPI - -
+2023-09-02 03:06:47.964 +01:00 [DBG] 1 candidate(s) found for the request path '/api/villaAPI'
+2023-09-02 03:06:47.964 +01:00 [DBG] Endpoint 'MagicVilla_VillaAPI.Controllers.VillaAPIController.GetVillas (MagicVilla_VillaAPI)' with route pattern 'api/villaAPI' is valid for the request path '/api/villaAPI'
+2023-09-02 03:06:47.964 +01:00 [DBG] Request matched endpoint 'MagicVilla_VillaAPI.Controllers.VillaAPIController.GetVillas (MagicVilla_VillaAPI)'
+2023-09-02 03:06:47.966 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-02 03:06:47.976 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-09-02 03:06:47.979 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-09-02 03:06:47.985 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/api/villaAPI - - - 500 - text/plain;+charset=utf-8 28.9383ms
+2023-09-02 03:20:47.975 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-09-02 03:20:48.156 +01:00 [DBG] Hosting starting
+2023-09-02 03:20:48.380 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 7C63FE5BAC6B0E4450DB5555CD951C5F06C04E54)
+2023-09-02 03:20:48.424 +01:00 [INF] Now listening on: https://localhost:7132
+2023-09-02 03:20:48.424 +01:00 [INF] Now listening on: http://localhost:5050
+2023-09-02 03:20:48.424 +01:00 [DBG] Loaded hosting startup assembly MagicVilla_VillaAPI
+2023-09-02 03:20:48.424 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-09-02 03:20:48.424 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-09-02 03:20:48.424 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-02 03:20:48.425 +01:00 [INF] Hosting environment: Development
+2023-09-02 03:20:48.426 +01:00 [INF] Content root path: C:\Users\admin\source\repos\MagicVilla\MagicVilla_VillaAPI\
+2023-09-02 03:20:48.426 +01:00 [DBG] Hosting started
+2023-09-02 03:20:48.528 +01:00 [DBG] Connection id "0HMTBBCSBO3EH" received FIN.
+2023-09-02 03:20:48.542 +01:00 [DBG] Connection id "0HMTBBCSBO3EH" accepted.
+2023-09-02 03:20:48.549 +01:00 [DBG] Connection id "0HMTBBCSBO3EH" started.
+2023-09-02 03:20:48.585 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-09-02 03:20:48.666 +01:00 [DBG] Connection id "0HMTBBCSBO3EH" stopped.
+2023-09-02 03:20:48.672 +01:00 [DBG] Connection id "0HMTBBCSBO3EH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-02 03:20:48.949 +01:00 [DBG] Connection id "0HMTBBCSBO3EI" accepted.
+2023-09-02 03:20:48.957 +01:00 [DBG] Connection id "0HMTBBCSBO3EI" started.
+2023-09-02 03:20:49.033 +01:00 [DBG] Connection id "0HMTBBCSBO3EJ" accepted.
+2023-09-02 03:20:49.033 +01:00 [DBG] Connection id "0HMTBBCSBO3EJ" started.
+2023-09-02 03:20:49.033 +01:00 [DBG] Connection id "0HMTBBCSBO3EI" received FIN.
+2023-09-02 03:20:49.044 +01:00 [DBG] Connection id "0HMTBBCSBO3EK" accepted.
+2023-09-02 03:20:49.045 +01:00 [DBG] Connection id "0HMTBBCSBO3EJ" received FIN.
+2023-09-02 03:20:49.045 +01:00 [DBG] Connection id "0HMTBBCSBO3EK" started.
+2023-09-02 03:20:49.059 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-09-02 03:20:49.060 +01:00 [DBG] Connection id "0HMTBBCSBO3EI" stopped.
+2023-09-02 03:20:49.060 +01:00 [DBG] Connection id "0HMTBBCSBO3EI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-02 03:20:49.073 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-09-02 03:20:49.074 +01:00 [DBG] Connection id "0HMTBBCSBO3EJ" stopped.
+2023-09-02 03:20:49.074 +01:00 [DBG] Connection id "0HMTBBCSBO3EJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-02 03:20:49.092 +01:00 [DBG] Connection 0HMTBBCSBO3EK established using the following protocol: "Tls12"
+2023-09-02 03:20:49.231 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger - -
+2023-09-02 03:20:49.325 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-09-02 03:20:49.382 +01:00 [DBG] No candidates found for the request path '/swagger'
+2023-09-02 03:20:49.382 +01:00 [DBG] Request did not match any endpoints
+2023-09-02 03:20:49.499 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger - - - 301 0 - 278.7954ms
+2023-09-02 03:20:49.508 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger/index.html - -
+2023-09-02 03:20:49.509 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-09-02 03:20:49.509 +01:00 [DBG] Request did not match any endpoints
+2023-09-02 03:20:49.884 +01:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-09-02 03:20:50.249 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger/swagger-ui.css - -
+2023-09-02 03:20:50.250 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2023-09-02 03:20:50.250 +01:00 [DBG] Request did not match any endpoints
+2023-09-02 03:20:50.250 +01:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-09-02 03:20:50.256 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger/index.html - - - 200 - text/html;charset=utf-8 747.4648ms
+2023-09-02 03:20:50.285 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-09-02 03:20:50.285 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger/swagger-ui.css - - - 200 144929 text/css 35.6122ms
+2023-09-02 03:20:50.327 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger/swagger-ui-bundle.js - -
+2023-09-02 03:20:50.327 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2023-09-02 03:20:50.328 +01:00 [DBG] Request did not match any endpoints
+2023-09-02 03:20:50.328 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger/swagger-ui-standalone-preset.js - -
+2023-09-02 03:20:50.328 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/_vs/browserLink - -
+2023-09-02 03:20:50.328 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/_framework/aspnetcore-browser-refresh.js - -
+2023-09-02 03:20:50.340 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2023-09-02 03:20:50.340 +01:00 [DBG] Request did not match any endpoints
+2023-09-02 03:20:50.382 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/_framework/aspnetcore-browser-refresh.js - - - 200 12370 application/javascript;+charset=utf-8 53.2290ms
+2023-09-02 03:20:50.431 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-09-02 03:20:50.434 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 106.2946ms
+2023-09-02 03:20:50.437 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 109.2188ms
+2023-09-02 03:20:50.458 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-09-02 03:20:50.458 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 131.1632ms
+2023-09-02 03:20:50.972 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger/v1/swagger.json - -
+2023-09-02 03:20:50.972 +01:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-09-02 03:20:50.972 +01:00 [DBG] Request did not match any endpoints
+2023-09-02 03:20:51.469 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 497.5071ms
+2023-09-02 03:21:01.299 +01:00 [DBG] Connection id "0HMTBBCSBO3EK" received FIN.
+2023-09-02 03:21:01.306 +01:00 [DBG] Connection id "0HMTBBCSBO3EK" is closed. The last processed stream ID was 15.
+2023-09-02 03:21:01.306 +01:00 [DBG] Connection id "0HMTBBCSBO3EK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-02 03:21:01.308 +01:00 [DBG] Connection id "0HMTBBCSBO3EK" stopped.
+2023-09-02 03:21:34.594 +01:00 [DBG] Connection id "0HMTBBCSBO3EL" accepted.
+2023-09-02 03:21:34.641 +01:00 [DBG] Connection id "0HMTBBCSBO3EL" started.
+2023-09-02 03:21:34.676 +01:00 [DBG] Connection id "0HMTBBCSBO3EL" received FIN.
+2023-09-02 03:21:34.681 +01:00 [DBG] Connection id "0HMTBBCSBO3EM" accepted.
+2023-09-02 03:21:34.681 +01:00 [DBG] Connection id "0HMTBBCSBO3EM" started.
+2023-09-02 03:21:34.683 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-09-02 03:21:34.690 +01:00 [DBG] Connection id "0HMTBBCSBO3EL" stopped.
+2023-09-02 03:21:34.690 +01:00 [DBG] Connection 0HMTBBCSBO3EM established using the following protocol: "Tls12"
+2023-09-02 03:21:34.690 +01:00 [DBG] Connection id "0HMTBBCSBO3EL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-02 03:21:34.691 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7132/api/UserAuth/login application/json-patch+json 62
+2023-09-02 03:21:34.707 +01:00 [DBG] 1 candidate(s) found for the request path '/api/UserAuth/login'
+2023-09-02 03:21:34.716 +01:00 [DBG] Endpoint 'MagicVilla_VillaAPI.Controllers.UseController.Login (MagicVilla_VillaAPI)' with route pattern 'api/UserAuth/login' is valid for the request path '/api/UserAuth/login'
+2023-09-02 03:21:34.717 +01:00 [DBG] Request matched endpoint 'MagicVilla_VillaAPI.Controllers.UseController.Login (MagicVilla_VillaAPI)'
+2023-09-02 03:21:34.717 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-02 03:21:34.726 +01:00 [INF] Executing endpoint 'MagicVilla_VillaAPI.Controllers.UseController.Login (MagicVilla_VillaAPI)'
+2023-09-02 03:21:34.788 +01:00 [INF] Route matched with {action = "Login", controller = "Use"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO) on controller MagicVilla_VillaAPI.Controllers.UseController (MagicVilla_VillaAPI).
+2023-09-02 03:21:34.789 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-09-02 03:21:34.789 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-09-02 03:21:34.790 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-09-02 03:21:34.790 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-09-02 03:21:34.790 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-09-02 03:21:34.791 +01:00 [DBG] Executing controller factory for controller MagicVilla_VillaAPI.Controllers.UseController (MagicVilla_VillaAPI)
+2023-09-02 03:21:35.034 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-09-02 03:21:35.076 +01:00 [DBG] Executed controller factory for controller MagicVilla_VillaAPI.Controllers.UseController (MagicVilla_VillaAPI)
+2023-09-02 03:21:35.095 +01:00 [DBG] Attempting to bind parameter 'model' of type 'MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO' ...
+2023-09-02 03:21:35.098 +01:00 [DBG] Attempting to bind parameter 'model' of type 'MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO' using the name '' in request data ...
+2023-09-02 03:21:35.099 +01:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2023-09-02 03:21:35.099 +01:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2023-09-02 03:21:35.115 +01:00 [DBG] Connection id "0HMTBBCSBO3EM", Request id "0HMTBBCSBO3EM:00000001": started reading request body.
+2023-09-02 03:21:35.116 +01:00 [DBG] Connection id "0HMTBBCSBO3EM", Request id "0HMTBBCSBO3EM:00000001": done reading request body.
+2023-09-02 03:21:35.322 +01:00 [DBG] Done attempting to bind parameter 'model' of type 'MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO'.
+2023-09-02 03:21:35.323 +01:00 [DBG] Done attempting to bind parameter 'model' of type 'MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO'.
+2023-09-02 03:21:35.323 +01:00 [DBG] Attempting to validate the bound parameter 'model' of type 'MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO' ...
+2023-09-02 03:21:35.338 +01:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO'.
+2023-09-02 03:21:36.802 +01:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+2023-09-02 03:21:36.915 +01:00 [DBG] Compiling query expression: 
+'DbSet<LocalUser>()
+    .FirstOrDefault(u => u.UserName.ToLower() == __ToLower_0 && u.Password == __loginRequestDTO_Password_1)'
+2023-09-02 03:21:37.482 +01:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<LocalUser>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: LocalUser.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: LocalUser.Name (string) Required, 1], [Property: LocalUser.Password (string) Required, 2], [Property: LocalUser.Role (string) Required, 3], [Property: LocalUser.UserName (string) Required, 4] }
+        SELECT TOP(1) l.Id, l.Name, l.Password, l.Role, l.UserName
+        FROM LocalUsers AS l
+        WHERE (LOWER(l.UserName) == @__ToLower_0) && (l.Password == @__loginRequestDTO_Password_1)), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, LocalUser>, 
+    MagicVilla_VillaAPI.Data.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2023-09-02 03:21:37.591 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-09-02 03:21:37.724 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (119ms).
+2023-09-02 03:21:37.756 +01:00 [DBG] Opening connection to database 'Villas' on server 'DESKTOP-BC346OD\SQLEXPRESS'.
+2023-09-02 03:21:38.338 +01:00 [DBG] Opened connection to database 'Villas' on server 'DESKTOP-BC346OD\SQLEXPRESS'.
+2023-09-02 03:21:38.365 +01:00 [DBG] Executing DbCommand [Parameters=[@__ToLower_0='?' (Size = 4000), @__loginRequestDTO_Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Name], [l].[Password], [l].[Role], [l].[UserName]
+FROM [LocalUsers] AS [l]
+WHERE (LOWER([l].[UserName]) = @__ToLower_0) AND ([l].[Password] = @__loginRequestDTO_Password_1)
+2023-09-02 03:21:38.485 +01:00 [INF] Executed DbCommand (134ms) [Parameters=[@__ToLower_0='?' (Size = 4000), @__loginRequestDTO_Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Name], [l].[Password], [l].[Role], [l].[UserName]
+FROM [LocalUsers] AS [l]
+WHERE (LOWER([l].[UserName]) = @__ToLower_0) AND ([l].[Password] = @__loginRequestDTO_Password_1)
+2023-09-02 03:21:38.519 +01:00 [DBG] Context 'ApplicationDbContext' started tracking 'LocalUser' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-02 03:21:38.586 +01:00 [DBG] A data reader was disposed.
+2023-09-02 03:21:38.595 +01:00 [DBG] Closing connection to database 'Villas' on server 'DESKTOP-BC346OD\SQLEXPRESS'.
+2023-09-02 03:21:38.613 +01:00 [DBG] Closed connection to database 'Villas' on server 'DESKTOP-BC346OD\SQLEXPRESS'.
+2023-09-02 03:21:38.802 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-09-02 03:21:38.809 +01:00 [DBG] No information found on request to perform content negotiation.
+2023-09-02 03:21:38.809 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-09-02 03:21:38.809 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-09-02 03:21:38.810 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-09-02 03:21:38.811 +01:00 [INF] Executing OkObjectResult, writing value of type 'MagicVilla_VillaAPI.Models.APIResponse'.
+2023-09-02 03:21:38.942 +01:00 [INF] Executed action MagicVilla_VillaAPI.Controllers.UseController.Login (MagicVilla_VillaAPI) in 4144.0714ms
+2023-09-02 03:21:38.942 +01:00 [INF] Executed endpoint 'MagicVilla_VillaAPI.Controllers.UseController.Login (MagicVilla_VillaAPI)'
+2023-09-02 03:21:38.951 +01:00 [DBG] 'ApplicationDbContext' disposed.
+2023-09-02 03:21:38.958 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7132/api/UserAuth/login application/json-patch+json 62 - 200 376 application/json;+charset=utf-8 4266.2161ms
+2023-09-02 03:21:41.312 +01:00 [DBG] Connection id "0HMTBBCSBO3EM" received FIN.
+2023-09-02 03:21:41.313 +01:00 [DBG] Connection id "0HMTBBCSBO3EM" is closed. The last processed stream ID was 1.
+2023-09-02 03:21:41.313 +01:00 [DBG] Connection id "0HMTBBCSBO3EM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-02 03:21:41.316 +01:00 [DBG] Connection id "0HMTBBCSBO3EM" stopped.
+2023-09-02 03:22:27.402 +01:00 [DBG] Connection id "0HMTBBCSBO3EN" accepted.
+2023-09-02 03:22:27.411 +01:00 [DBG] Connection id "0HMTBBCSBO3EN" started.
+2023-09-02 03:22:27.431 +01:00 [DBG] Connection id "0HMTBBCSBO3EN" received FIN.
+2023-09-02 03:22:27.442 +01:00 [DBG] Connection id "0HMTBBCSBO3EO" accepted.
+2023-09-02 03:22:27.442 +01:00 [DBG] Connection id "0HMTBBCSBO3EO" started.
+2023-09-02 03:22:27.442 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-09-02 03:22:27.443 +01:00 [DBG] Connection id "0HMTBBCSBO3EN" stopped.
+2023-09-02 03:22:27.443 +01:00 [DBG] Connection id "0HMTBBCSBO3EN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-02 03:22:27.447 +01:00 [DBG] Connection 0HMTBBCSBO3EO established using the following protocol: "Tls12"
+2023-09-02 03:22:27.447 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/api/villaAPI - -
+2023-09-02 03:22:27.449 +01:00 [DBG] 1 candidate(s) found for the request path '/api/villaAPI'
+2023-09-02 03:22:27.449 +01:00 [DBG] Endpoint 'MagicVilla_VillaAPI.Controllers.VillaAPIController.GetVillas (MagicVilla_VillaAPI)' with route pattern 'api/villaAPI' is valid for the request path '/api/villaAPI'
+2023-09-02 03:22:27.449 +01:00 [DBG] Request matched endpoint 'MagicVilla_VillaAPI.Controllers.VillaAPIController.GetVillas (MagicVilla_VillaAPI)'
+2023-09-02 03:22:27.449 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-02 03:22:27.459 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-09-02 03:22:27.463 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-09-02 03:22:27.470 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/api/villaAPI - - - 500 - text/plain;+charset=utf-8 23.0534ms
+2023-09-02 03:22:31.327 +01:00 [DBG] Connection id "0HMTBBCSBO3EO" received FIN.
+2023-09-02 03:22:31.328 +01:00 [DBG] Connection id "0HMTBBCSBO3EO" is closed. The last processed stream ID was 1.
+2023-09-02 03:22:31.328 +01:00 [DBG] Connection id "0HMTBBCSBO3EO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-02 03:22:31.328 +01:00 [DBG] Connection id "0HMTBBCSBO3EO" stopped.
+2023-09-02 03:26:47.343 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-09-02 03:26:47.550 +01:00 [DBG] Hosting starting
+2023-09-02 03:26:47.854 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 7C63FE5BAC6B0E4450DB5555CD951C5F06C04E54)
+2023-09-02 03:26:47.918 +01:00 [INF] Now listening on: https://localhost:7132
+2023-09-02 03:26:47.919 +01:00 [INF] Now listening on: http://localhost:5050
+2023-09-02 03:26:47.919 +01:00 [DBG] Loaded hosting startup assembly MagicVilla_VillaAPI
+2023-09-02 03:26:47.919 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-09-02 03:26:47.919 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-09-02 03:26:47.920 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-02 03:26:47.922 +01:00 [INF] Hosting environment: Development
+2023-09-02 03:26:47.922 +01:00 [INF] Content root path: C:\Users\admin\source\repos\MagicVilla\MagicVilla_VillaAPI\
+2023-09-02 03:26:47.922 +01:00 [DBG] Hosting started
+2023-09-02 03:26:48.147 +01:00 [DBG] Connection id "0HMTBBG7HAT3D" received FIN.
+2023-09-02 03:26:48.156 +01:00 [DBG] Connection id "0HMTBBG7HAT3D" accepted.
+2023-09-02 03:26:48.161 +01:00 [DBG] Connection id "0HMTBBG7HAT3D" started.
+2023-09-02 03:26:48.201 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-09-02 03:26:48.272 +01:00 [DBG] Connection id "0HMTBBG7HAT3D" stopped.
+2023-09-02 03:26:48.282 +01:00 [DBG] Connection id "0HMTBBG7HAT3D" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-02 03:26:48.487 +01:00 [DBG] Connection id "0HMTBBG7HAT3E" accepted.
+2023-09-02 03:26:48.498 +01:00 [DBG] Connection id "0HMTBBG7HAT3E" started.
+2023-09-02 03:26:48.622 +01:00 [DBG] Connection id "0HMTBBG7HAT3E" received FIN.
+2023-09-02 03:26:48.739 +01:00 [DBG] Connection id "0HMTBBG7HAT3F" accepted.
+2023-09-02 03:26:48.752 +01:00 [DBG] Connection id "0HMTBBG7HAT3F" started.
+2023-09-02 03:26:48.791 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-09-02 03:26:48.793 +01:00 [DBG] Connection id "0HMTBBG7HAT3E" stopped.
+2023-09-02 03:26:48.795 +01:00 [DBG] Connection id "0HMTBBG7HAT3E" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-02 03:26:48.811 +01:00 [DBG] Connection id "0HMTBBG7HAT3G" accepted.
+2023-09-02 03:26:48.811 +01:00 [DBG] Connection id "0HMTBBG7HAT3G" started.
+2023-09-02 03:26:48.811 +01:00 [DBG] Connection id "0HMTBBG7HAT3F" received FIN.
+2023-09-02 03:26:48.815 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-09-02 03:26:48.816 +01:00 [DBG] Connection id "0HMTBBG7HAT3F" stopped.
+2023-09-02 03:26:48.817 +01:00 [DBG] Connection id "0HMTBBG7HAT3F" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-02 03:26:48.844 +01:00 [DBG] Connection 0HMTBBG7HAT3G established using the following protocol: "Tls12"
+2023-09-02 03:26:49.002 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger - -
+2023-09-02 03:26:49.095 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-09-02 03:26:49.157 +01:00 [DBG] No candidates found for the request path '/swagger'
+2023-09-02 03:26:49.157 +01:00 [DBG] Request did not match any endpoints
+2023-09-02 03:26:49.300 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger - - - 301 0 - 306.6161ms
+2023-09-02 03:26:49.323 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger/index.html - -
+2023-09-02 03:26:49.324 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-09-02 03:26:49.324 +01:00 [DBG] Request did not match any endpoints
+2023-09-02 03:26:49.781 +01:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-09-02 03:26:50.135 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger/swagger-ui-bundle.js - -
+2023-09-02 03:26:50.135 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger/swagger-ui-standalone-preset.js - -
+2023-09-02 03:26:50.136 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2023-09-02 03:26:50.136 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/_framework/aspnetcore-browser-refresh.js - -
+2023-09-02 03:26:50.136 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2023-09-02 03:26:50.136 +01:00 [DBG] Request did not match any endpoints
+2023-09-02 03:26:50.144 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/_framework/aspnetcore-browser-refresh.js - - - 200 12370 application/javascript;+charset=utf-8 7.8125ms
+2023-09-02 03:26:50.144 +01:00 [DBG] Request did not match any endpoints
+2023-09-02 03:26:50.147 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger/swagger-ui.css - -
+2023-09-02 03:26:50.147 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2023-09-02 03:26:50.147 +01:00 [DBG] Request did not match any endpoints
+2023-09-02 03:26:50.147 +01:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-09-02 03:26:50.189 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger/index.html - - - 200 - text/html;charset=utf-8 865.7227ms
+2023-09-02 03:26:50.201 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-09-02 03:26:50.201 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-09-02 03:26:50.201 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger/swagger-ui.css - - - 200 144929 text/css 54.3497ms
+2023-09-02 03:26:50.201 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 65.9076ms
+2023-09-02 03:26:50.223 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/_vs/browserLink - -
+2023-09-02 03:26:50.255 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-09-02 03:26:50.255 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 120.6236ms
+2023-09-02 03:26:50.312 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 89.7256ms
+2023-09-02 03:26:50.877 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger/v1/swagger.json - -
+2023-09-02 03:26:50.877 +01:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-09-02 03:26:50.877 +01:00 [DBG] Request did not match any endpoints
+2023-09-02 03:26:51.341 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 464.1848ms
+2023-09-02 03:26:51.409 +01:00 [DBG] Connection id "0HMTBBG7HAT3G" received FIN.
+2023-09-02 03:26:51.420 +01:00 [DBG] Connection id "0HMTBBG7HAT3G" is closed. The last processed stream ID was 15.
+2023-09-02 03:26:51.421 +01:00 [DBG] Connection id "0HMTBBG7HAT3G" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-02 03:26:51.427 +01:00 [DBG] Connection id "0HMTBBG7HAT3G" stopped.
+2023-09-02 03:27:25.796 +01:00 [DBG] Connection id "0HMTBBG7HAT3H" accepted.
+2023-09-02 03:27:25.824 +01:00 [DBG] Connection id "0HMTBBG7HAT3H" started.
+2023-09-02 03:27:25.858 +01:00 [DBG] Connection id "0HMTBBG7HAT3H" received FIN.
+2023-09-02 03:27:25.858 +01:00 [DBG] Connection id "0HMTBBG7HAT3I" accepted.
+2023-09-02 03:27:25.859 +01:00 [DBG] Connection id "0HMTBBG7HAT3I" started.
+2023-09-02 03:27:25.859 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-09-02 03:27:25.861 +01:00 [DBG] Connection id "0HMTBBG7HAT3H" stopped.
+2023-09-02 03:27:25.861 +01:00 [DBG] Connection id "0HMTBBG7HAT3H" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-02 03:27:25.862 +01:00 [DBG] Connection 0HMTBBG7HAT3I established using the following protocol: "Tls12"
+2023-09-02 03:27:25.865 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7132/api/UserAuth/login application/json-patch+json 62
+2023-09-02 03:27:25.897 +01:00 [DBG] 1 candidate(s) found for the request path '/api/UserAuth/login'
+2023-09-02 03:27:25.910 +01:00 [DBG] Endpoint 'MagicVilla_VillaAPI.Controllers.UseController.Login (MagicVilla_VillaAPI)' with route pattern 'api/UserAuth/login' is valid for the request path '/api/UserAuth/login'
+2023-09-02 03:27:25.910 +01:00 [DBG] Request matched endpoint 'MagicVilla_VillaAPI.Controllers.UseController.Login (MagicVilla_VillaAPI)'
+2023-09-02 03:27:25.910 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-02 03:27:25.915 +01:00 [INF] Executing endpoint 'MagicVilla_VillaAPI.Controllers.UseController.Login (MagicVilla_VillaAPI)'
+2023-09-02 03:27:25.990 +01:00 [INF] Route matched with {action = "Login", controller = "Use"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO) on controller MagicVilla_VillaAPI.Controllers.UseController (MagicVilla_VillaAPI).
+2023-09-02 03:27:25.992 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-09-02 03:27:25.992 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-09-02 03:27:25.992 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-09-02 03:27:25.992 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-09-02 03:27:25.992 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-09-02 03:27:25.993 +01:00 [DBG] Executing controller factory for controller MagicVilla_VillaAPI.Controllers.UseController (MagicVilla_VillaAPI)
+2023-09-02 03:27:26.350 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-09-02 03:27:26.402 +01:00 [DBG] Executed controller factory for controller MagicVilla_VillaAPI.Controllers.UseController (MagicVilla_VillaAPI)
+2023-09-02 03:27:26.423 +01:00 [DBG] Attempting to bind parameter 'model' of type 'MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO' ...
+2023-09-02 03:27:26.426 +01:00 [DBG] Attempting to bind parameter 'model' of type 'MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO' using the name '' in request data ...
+2023-09-02 03:27:26.427 +01:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2023-09-02 03:27:26.428 +01:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2023-09-02 03:27:26.455 +01:00 [DBG] Connection id "0HMTBBG7HAT3I", Request id "0HMTBBG7HAT3I:00000001": started reading request body.
+2023-09-02 03:27:26.455 +01:00 [DBG] Connection id "0HMTBBG7HAT3I", Request id "0HMTBBG7HAT3I:00000001": done reading request body.
+2023-09-02 03:27:26.846 +01:00 [DBG] Done attempting to bind parameter 'model' of type 'MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO'.
+2023-09-02 03:27:26.846 +01:00 [DBG] Done attempting to bind parameter 'model' of type 'MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO'.
+2023-09-02 03:27:26.846 +01:00 [DBG] Attempting to validate the bound parameter 'model' of type 'MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO' ...
+2023-09-02 03:27:26.859 +01:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO'.
+2023-09-02 03:27:28.946 +01:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+2023-09-02 03:27:29.170 +01:00 [DBG] Compiling query expression: 
+'DbSet<LocalUser>()
+    .FirstOrDefault(u => u.UserName.ToLower() == __ToLower_0 && u.Password == __loginRequestDTO_Password_1)'
+2023-09-02 03:27:30.134 +01:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<LocalUser>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: LocalUser.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: LocalUser.Name (string) Required, 1], [Property: LocalUser.Password (string) Required, 2], [Property: LocalUser.Role (string) Required, 3], [Property: LocalUser.UserName (string) Required, 4] }
+        SELECT TOP(1) l.Id, l.Name, l.Password, l.Role, l.UserName
+        FROM LocalUsers AS l
+        WHERE (LOWER(l.UserName) == @__ToLower_0) && (l.Password == @__loginRequestDTO_Password_1)), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, LocalUser>, 
+    MagicVilla_VillaAPI.Data.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2023-09-02 03:27:30.297 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-09-02 03:27:30.413 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (119ms).
+2023-09-02 03:27:30.452 +01:00 [DBG] Opening connection to database 'Villas' on server 'DESKTOP-BC346OD\SQLEXPRESS'.
+2023-09-02 03:27:31.328 +01:00 [DBG] Opened connection to database 'Villas' on server 'DESKTOP-BC346OD\SQLEXPRESS'.
+2023-09-02 03:27:31.352 +01:00 [DBG] Executing DbCommand [Parameters=[@__ToLower_0='?' (Size = 4000), @__loginRequestDTO_Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Name], [l].[Password], [l].[Role], [l].[UserName]
+FROM [LocalUsers] AS [l]
+WHERE (LOWER([l].[UserName]) = @__ToLower_0) AND ([l].[Password] = @__loginRequestDTO_Password_1)
+2023-09-02 03:27:31.546 +01:00 [INF] Executed DbCommand (199ms) [Parameters=[@__ToLower_0='?' (Size = 4000), @__loginRequestDTO_Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Name], [l].[Password], [l].[Role], [l].[UserName]
+FROM [LocalUsers] AS [l]
+WHERE (LOWER([l].[UserName]) = @__ToLower_0) AND ([l].[Password] = @__loginRequestDTO_Password_1)
+2023-09-02 03:27:31.585 +01:00 [DBG] Context 'ApplicationDbContext' started tracking 'LocalUser' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-02 03:27:31.642 +01:00 [DBG] A data reader was disposed.
+2023-09-02 03:27:31.651 +01:00 [DBG] Closing connection to database 'Villas' on server 'DESKTOP-BC346OD\SQLEXPRESS'.
+2023-09-02 03:27:31.673 +01:00 [DBG] Closed connection to database 'Villas' on server 'DESKTOP-BC346OD\SQLEXPRESS'.
+2023-09-02 03:27:31.929 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-09-02 03:27:31.937 +01:00 [DBG] No information found on request to perform content negotiation.
+2023-09-02 03:27:31.937 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-09-02 03:27:31.937 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-09-02 03:27:31.938 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-09-02 03:27:31.939 +01:00 [INF] Executing OkObjectResult, writing value of type 'MagicVilla_VillaAPI.Models.APIResponse'.
+2023-09-02 03:27:32.061 +01:00 [INF] Executed action MagicVilla_VillaAPI.Controllers.UseController.Login (MagicVilla_VillaAPI) in 6058.9636ms
+2023-09-02 03:27:32.063 +01:00 [INF] Executed endpoint 'MagicVilla_VillaAPI.Controllers.UseController.Login (MagicVilla_VillaAPI)'
+2023-09-02 03:27:32.089 +01:00 [DBG] 'ApplicationDbContext' disposed.
+2023-09-02 03:27:32.106 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7132/api/UserAuth/login application/json-patch+json 62 - 200 376 application/json;+charset=utf-8 6240.5975ms
+2023-09-02 03:27:41.411 +01:00 [DBG] Connection id "0HMTBBG7HAT3I" received FIN.
+2023-09-02 03:27:41.411 +01:00 [DBG] Connection id "0HMTBBG7HAT3I" is closed. The last processed stream ID was 1.
+2023-09-02 03:27:41.411 +01:00 [DBG] Connection id "0HMTBBG7HAT3I" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-02 03:27:41.414 +01:00 [DBG] Connection id "0HMTBBG7HAT3I" stopped.
+2023-09-02 03:28:09.436 +01:00 [DBG] Connection id "0HMTBBG7HAT3J" accepted.
+2023-09-02 03:28:09.455 +01:00 [DBG] Connection id "0HMTBBG7HAT3J" started.
+2023-09-02 03:28:09.484 +01:00 [DBG] Connection id "0HMTBBG7HAT3J" received FIN.
+2023-09-02 03:28:09.490 +01:00 [DBG] Connection id "0HMTBBG7HAT3K" accepted.
+2023-09-02 03:28:09.490 +01:00 [DBG] Connection id "0HMTBBG7HAT3K" started.
+2023-09-02 03:28:09.490 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-09-02 03:28:09.491 +01:00 [DBG] Connection id "0HMTBBG7HAT3J" stopped.
+2023-09-02 03:28:09.491 +01:00 [DBG] Connection id "0HMTBBG7HAT3J" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-02 03:28:09.494 +01:00 [DBG] Connection 0HMTBBG7HAT3K established using the following protocol: "Tls12"
+2023-09-02 03:28:09.495 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/api/villaAPI - -
+2023-09-02 03:28:09.497 +01:00 [DBG] 1 candidate(s) found for the request path '/api/villaAPI'
+2023-09-02 03:28:09.497 +01:00 [DBG] Endpoint 'MagicVilla_VillaAPI.Controllers.VillaAPIController.GetVillas (MagicVilla_VillaAPI)' with route pattern 'api/villaAPI' is valid for the request path '/api/villaAPI'
+2023-09-02 03:28:09.497 +01:00 [DBG] Request matched endpoint 'MagicVilla_VillaAPI.Controllers.VillaAPIController.GetVillas (MagicVilla_VillaAPI)'
+2023-09-02 03:28:09.497 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-02 03:28:09.509 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-09-02 03:28:09.515 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-09-02 03:28:09.524 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/api/villaAPI - - - 500 - text/plain;+charset=utf-8 29.0737ms
+2023-09-02 03:28:11.421 +01:00 [DBG] Connection id "0HMTBBG7HAT3K" received FIN.
+2023-09-02 03:28:11.422 +01:00 [DBG] Connection id "0HMTBBG7HAT3K" is closed. The last processed stream ID was 1.
+2023-09-02 03:28:11.422 +01:00 [DBG] Connection id "0HMTBBG7HAT3K" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-02 03:28:11.424 +01:00 [DBG] Connection id "0HMTBBG7HAT3K" stopped.
+2023-09-02 04:24:09.126 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-09-02 04:24:09.231 +01:00 [DBG] Hosting starting
+2023-09-02 04:24:09.301 +01:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-09-02 04:24:09.305 +01:00 [DBG] Reading data from file 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys\key-8bf52a84-96c1-40bc-b80f-a959d7573a4d.xml'.
+2023-09-02 04:24:09.356 +01:00 [DBG] Found key {8bf52a84-96c1-40bc-b80f-a959d7573a4d}.
+2023-09-02 04:24:09.380 +01:00 [DBG] Considering key {8bf52a84-96c1-40bc-b80f-a959d7573a4d} with expiration date 2023-11-10 02:01:35Z as default key.
+2023-09-02 04:24:09.383 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-09-02 04:24:09.388 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2023-09-02 04:24:09.390 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-09-02 04:24:09.397 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-09-02 04:24:09.400 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-09-02 04:24:09.404 +01:00 [DBG] Using key {8bf52a84-96c1-40bc-b80f-a959d7573a4d} as the default key.
+2023-09-02 04:24:09.405 +01:00 [DBG] Key ring with default key {8bf52a84-96c1-40bc-b80f-a959d7573a4d} was loaded during application startup.
+2023-09-02 04:24:09.667 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 7C63FE5BAC6B0E4450DB5555CD951C5F06C04E54)
+2023-09-02 04:24:09.705 +01:00 [INF] Now listening on: https://localhost:7132
+2023-09-02 04:24:09.705 +01:00 [INF] Now listening on: http://localhost:5050
+2023-09-02 04:24:09.705 +01:00 [DBG] Loaded hosting startup assembly MagicVilla_VillaAPI
+2023-09-02 04:24:09.705 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-09-02 04:24:09.705 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-09-02 04:24:09.706 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-02 04:24:09.706 +01:00 [INF] Hosting environment: Development
+2023-09-02 04:24:09.706 +01:00 [INF] Content root path: C:\Users\admin\source\repos\MagicVilla\MagicVilla_VillaAPI\
+2023-09-02 04:24:09.706 +01:00 [DBG] Hosting started
+2023-09-02 04:24:09.778 +01:00 [DBG] Connection id "0HMTBCG979M3H" received FIN.
+2023-09-02 04:24:09.782 +01:00 [DBG] Connection id "0HMTBCG979M3H" accepted.
+2023-09-02 04:24:09.784 +01:00 [DBG] Connection id "0HMTBCG979M3H" started.
+2023-09-02 04:24:09.804 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-09-02 04:24:09.897 +01:00 [DBG] Connection id "0HMTBCG979M3H" stopped.
+2023-09-02 04:24:09.900 +01:00 [DBG] Connection id "0HMTBCG979M3H" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-02 04:24:10.201 +01:00 [DBG] Connection id "0HMTBCG979M3I" accepted.
+2023-09-02 04:24:10.202 +01:00 [DBG] Connection id "0HMTBCG979M3I" started.
+2023-09-02 04:24:10.375 +01:00 [DBG] Connection id "0HMTBCG979M3I" received FIN.
+2023-09-02 04:24:10.376 +01:00 [DBG] Connection id "0HMTBCG979M3J" accepted.
+2023-09-02 04:24:10.414 +01:00 [DBG] Connection id "0HMTBCG979M3J" started.
+2023-09-02 04:24:10.417 +01:00 [DBG] Connection id "0HMTBCG979M3J" received FIN.
+2023-09-02 04:24:10.418 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-09-02 04:24:10.418 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-09-02 04:24:10.419 +01:00 [DBG] Connection id "0HMTBCG979M3K" accepted.
+2023-09-02 04:24:10.421 +01:00 [DBG] Connection id "0HMTBCG979M3I" stopped.
+2023-09-02 04:24:10.420 +01:00 [DBG] Connection id "0HMTBCG979M3J" stopped.
+2023-09-02 04:24:10.421 +01:00 [DBG] Connection id "0HMTBCG979M3K" started.
+2023-09-02 04:24:10.421 +01:00 [DBG] Connection id "0HMTBCG979M3I" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-02 04:24:10.423 +01:00 [DBG] Connection id "0HMTBCG979M3J" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-02 04:24:10.453 +01:00 [DBG] Connection 0HMTBCG979M3K established using the following protocol: "Tls12"
+2023-09-02 04:24:10.591 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger - -
+2023-09-02 04:24:10.687 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-09-02 04:24:10.732 +01:00 [DBG] No candidates found for the request path '/swagger'
+2023-09-02 04:24:10.732 +01:00 [DBG] Request did not match any endpoints
+2023-09-02 04:24:10.829 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger - - - 301 0 - 247.4771ms
+2023-09-02 04:24:10.847 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger/index.html - -
+2023-09-02 04:24:10.848 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-09-02 04:24:10.848 +01:00 [DBG] Request did not match any endpoints
+2023-09-02 04:24:11.264 +01:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-09-02 04:24:11.606 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger/swagger-ui-standalone-preset.js - -
+2023-09-02 04:24:11.607 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/_framework/aspnetcore-browser-refresh.js - -
+2023-09-02 04:24:11.607 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2023-09-02 04:24:11.607 +01:00 [DBG] Request did not match any endpoints
+2023-09-02 04:24:11.614 +01:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-09-02 04:24:11.616 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger/index.html - - - 200 - text/html;charset=utf-8 769.2456ms
+2023-09-02 04:24:11.620 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/_framework/aspnetcore-browser-refresh.js - - - 200 12370 application/javascript;+charset=utf-8 12.9983ms
+2023-09-02 04:24:11.620 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger/swagger-ui-bundle.js - -
+2023-09-02 04:24:11.620 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2023-09-02 04:24:11.621 +01:00 [DBG] Request did not match any endpoints
+2023-09-02 04:24:11.623 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger/swagger-ui.css - -
+2023-09-02 04:24:11.623 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2023-09-02 04:24:11.623 +01:00 [DBG] Request did not match any endpoints
+2023-09-02 04:24:11.704 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/_vs/browserLink - -
+2023-09-02 04:24:11.751 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-09-02 04:24:11.751 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-09-02 04:24:11.769 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger/swagger-ui.css - - - 200 144929 text/css 146.1215ms
+2023-09-02 04:24:11.769 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 162.8298ms
+2023-09-02 04:24:11.808 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-09-02 04:24:11.808 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 201.8253ms
+2023-09-02 04:24:11.810 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 105.5227ms
+2023-09-02 04:24:12.398 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger/v1/swagger.json - -
+2023-09-02 04:24:12.398 +01:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-09-02 04:24:12.399 +01:00 [DBG] Request did not match any endpoints
+2023-09-02 04:24:12.949 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 550.5811ms
+2023-09-02 04:24:34.006 +01:00 [DBG] Connection id "0HMTBCG979M3K" received FIN.
+2023-09-02 04:24:34.013 +01:00 [DBG] Connection id "0HMTBCG979M3K" is closed. The last processed stream ID was 15.
+2023-09-02 04:24:34.014 +01:00 [DBG] Connection id "0HMTBCG979M3K" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-02 04:24:34.020 +01:00 [DBG] Connection id "0HMTBCG979M3K" stopped.
+2023-09-02 04:24:43.540 +01:00 [DBG] Connection id "0HMTBCG979M3L" accepted.
+2023-09-02 04:24:43.541 +01:00 [DBG] Connection id "0HMTBCG979M3L" started.
+2023-09-02 04:24:43.547 +01:00 [DBG] Connection id "0HMTBCG979M3L" received FIN.
+2023-09-02 04:24:43.549 +01:00 [DBG] Connection id "0HMTBCG979M3M" accepted.
+2023-09-02 04:24:43.550 +01:00 [DBG] Connection id "0HMTBCG979M3M" started.
+2023-09-02 04:24:43.551 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-09-02 04:24:43.551 +01:00 [DBG] Connection 0HMTBCG979M3M established using the following protocol: "Tls12"
+2023-09-02 04:24:43.552 +01:00 [DBG] Connection id "0HMTBCG979M3L" stopped.
+2023-09-02 04:24:43.552 +01:00 [DBG] Connection id "0HMTBCG979M3L" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-02 04:24:43.553 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7132/api/UserAuth/login application/json-patch+json 62
+2023-09-02 04:24:43.571 +01:00 [DBG] 1 candidate(s) found for the request path '/api/UserAuth/login'
+2023-09-02 04:24:43.582 +01:00 [DBG] Endpoint 'MagicVilla_VillaAPI.Controllers.UseController.Login (MagicVilla_VillaAPI)' with route pattern 'api/UserAuth/login' is valid for the request path '/api/UserAuth/login'
+2023-09-02 04:24:43.583 +01:00 [DBG] Request matched endpoint 'MagicVilla_VillaAPI.Controllers.UseController.Login (MagicVilla_VillaAPI)'
+2023-09-02 04:24:43.583 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-02 04:24:43.589 +01:00 [INF] Executing endpoint 'MagicVilla_VillaAPI.Controllers.UseController.Login (MagicVilla_VillaAPI)'
+2023-09-02 04:24:43.641 +01:00 [INF] Route matched with {action = "Login", controller = "Use"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO) on controller MagicVilla_VillaAPI.Controllers.UseController (MagicVilla_VillaAPI).
+2023-09-02 04:24:43.642 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-09-02 04:24:43.642 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-09-02 04:24:43.642 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-09-02 04:24:43.642 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-09-02 04:24:43.643 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-09-02 04:24:43.645 +01:00 [DBG] Executing controller factory for controller MagicVilla_VillaAPI.Controllers.UseController (MagicVilla_VillaAPI)
+2023-09-02 04:24:43.900 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-09-02 04:24:43.953 +01:00 [DBG] Executed controller factory for controller MagicVilla_VillaAPI.Controllers.UseController (MagicVilla_VillaAPI)
+2023-09-02 04:24:43.969 +01:00 [DBG] Attempting to bind parameter 'model' of type 'MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO' ...
+2023-09-02 04:24:43.972 +01:00 [DBG] Attempting to bind parameter 'model' of type 'MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO' using the name '' in request data ...
+2023-09-02 04:24:43.973 +01:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2023-09-02 04:24:43.973 +01:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2023-09-02 04:24:43.991 +01:00 [DBG] Connection id "0HMTBCG979M3M", Request id "0HMTBCG979M3M:00000001": started reading request body.
+2023-09-02 04:24:43.991 +01:00 [DBG] Connection id "0HMTBCG979M3M", Request id "0HMTBCG979M3M:00000001": done reading request body.
+2023-09-02 04:24:44.200 +01:00 [DBG] Done attempting to bind parameter 'model' of type 'MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO'.
+2023-09-02 04:24:44.200 +01:00 [DBG] Done attempting to bind parameter 'model' of type 'MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO'.
+2023-09-02 04:24:44.200 +01:00 [DBG] Attempting to validate the bound parameter 'model' of type 'MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO' ...
+2023-09-02 04:24:44.208 +01:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'MagicVilla_VillaAPI.Models.Dto.LoginRequestDTO'.
+2023-09-02 04:24:45.679 +01:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+2023-09-02 04:24:45.792 +01:00 [DBG] Compiling query expression: 
+'DbSet<LocalUser>()
+    .FirstOrDefault(u => u.UserName.ToLower() == __ToLower_0 && u.Password == __loginRequestDTO_Password_1)'
+2023-09-02 04:24:46.454 +01:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<LocalUser>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: LocalUser.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: LocalUser.Name (string) Required, 1], [Property: LocalUser.Password (string) Required, 2], [Property: LocalUser.Role (string) Required, 3], [Property: LocalUser.UserName (string) Required, 4] }
+        SELECT TOP(1) l.Id, l.Name, l.Password, l.Role, l.UserName
+        FROM LocalUsers AS l
+        WHERE (LOWER(l.UserName) == @__ToLower_0) && (l.Password == @__loginRequestDTO_Password_1)), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, LocalUser>, 
+    MagicVilla_VillaAPI.Data.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2023-09-02 04:24:46.568 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-09-02 04:24:46.651 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (81ms).
+2023-09-02 04:24:46.686 +01:00 [DBG] Opening connection to database 'Villas' on server 'DESKTOP-BC346OD\SQLEXPRESS'.
+2023-09-02 04:24:47.262 +01:00 [DBG] Opened connection to database 'Villas' on server 'DESKTOP-BC346OD\SQLEXPRESS'.
+2023-09-02 04:24:47.290 +01:00 [DBG] Executing DbCommand [Parameters=[@__ToLower_0='?' (Size = 4000), @__loginRequestDTO_Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Name], [l].[Password], [l].[Role], [l].[UserName]
+FROM [LocalUsers] AS [l]
+WHERE (LOWER([l].[UserName]) = @__ToLower_0) AND ([l].[Password] = @__loginRequestDTO_Password_1)
+2023-09-02 04:24:47.432 +01:00 [INF] Executed DbCommand (154ms) [Parameters=[@__ToLower_0='?' (Size = 4000), @__loginRequestDTO_Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Name], [l].[Password], [l].[Role], [l].[UserName]
+FROM [LocalUsers] AS [l]
+WHERE (LOWER([l].[UserName]) = @__ToLower_0) AND ([l].[Password] = @__loginRequestDTO_Password_1)
+2023-09-02 04:24:47.474 +01:00 [DBG] Context 'ApplicationDbContext' started tracking 'LocalUser' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-02 04:24:47.535 +01:00 [DBG] A data reader was disposed.
+2023-09-02 04:24:47.541 +01:00 [DBG] Closing connection to database 'Villas' on server 'DESKTOP-BC346OD\SQLEXPRESS'.
+2023-09-02 04:24:47.561 +01:00 [DBG] Closed connection to database 'Villas' on server 'DESKTOP-BC346OD\SQLEXPRESS'.
+2023-09-02 04:24:47.799 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-09-02 04:24:47.805 +01:00 [DBG] No information found on request to perform content negotiation.
+2023-09-02 04:24:47.805 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-09-02 04:24:47.805 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-09-02 04:24:47.806 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-09-02 04:24:47.807 +01:00 [INF] Executing OkObjectResult, writing value of type 'MagicVilla_VillaAPI.Models.APIResponse'.
+2023-09-02 04:24:47.922 +01:00 [INF] Executed action MagicVilla_VillaAPI.Controllers.UseController.Login (MagicVilla_VillaAPI) in 4269.2988ms
+2023-09-02 04:24:47.923 +01:00 [INF] Executed endpoint 'MagicVilla_VillaAPI.Controllers.UseController.Login (MagicVilla_VillaAPI)'
+2023-09-02 04:24:47.935 +01:00 [DBG] 'ApplicationDbContext' disposed.
+2023-09-02 04:24:47.944 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7132/api/UserAuth/login application/json-patch+json 62 - 200 366 application/json;+charset=utf-8 4390.8331ms
+2023-09-02 04:24:54.057 +01:00 [DBG] Connection id "0HMTBCG979M3M" received FIN.
+2023-09-02 04:24:54.057 +01:00 [DBG] Connection id "0HMTBCG979M3M" is closed. The last processed stream ID was 1.
+2023-09-02 04:24:54.058 +01:00 [DBG] Connection id "0HMTBCG979M3M" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-02 04:24:54.069 +01:00 [DBG] Connection id "0HMTBCG979M3M" stopped.
+2023-09-02 04:25:09.526 +01:00 [DBG] Connection id "0HMTBCG979M3N" accepted.
+2023-09-02 04:25:09.526 +01:00 [DBG] Connection id "0HMTBCG979M3N" started.
+2023-09-02 04:25:09.529 +01:00 [DBG] Connection id "0HMTBCG979M3N" received FIN.
+2023-09-02 04:25:09.530 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-09-02 04:25:09.530 +01:00 [DBG] Connection id "0HMTBCG979M3O" accepted.
+2023-09-02 04:25:09.534 +01:00 [DBG] Connection id "0HMTBCG979M3O" started.
+2023-09-02 04:25:09.534 +01:00 [DBG] Connection id "0HMTBCG979M3N" stopped.
+2023-09-02 04:25:09.547 +01:00 [DBG] Connection id "0HMTBCG979M3N" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-02 04:25:09.565 +01:00 [DBG] Connection 0HMTBCG979M3O established using the following protocol: "Tls12"
+2023-09-02 04:25:09.567 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/api/villaAPI - -
+2023-09-02 04:25:09.570 +01:00 [DBG] 1 candidate(s) found for the request path '/api/villaAPI'
+2023-09-02 04:25:09.571 +01:00 [DBG] Endpoint 'MagicVilla_VillaAPI.Controllers.VillaAPIController.GetVillas (MagicVilla_VillaAPI)' with route pattern 'api/villaAPI' is valid for the request path '/api/villaAPI'
+2023-09-02 04:25:09.571 +01:00 [DBG] Request matched endpoint 'MagicVilla_VillaAPI.Controllers.VillaAPIController.GetVillas (MagicVilla_VillaAPI)'
+2023-09-02 04:25:09.571 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-02 04:25:09.580 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-09-02 04:25:09.588 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-09-02 04:25:09.593 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/api/villaAPI - - - 500 - text/plain;+charset=utf-8 26.8132ms
+2023-09-02 04:25:14.093 +01:00 [DBG] Connection id "0HMTBCG979M3O" received FIN.
+2023-09-02 04:25:14.095 +01:00 [DBG] Connection id "0HMTBCG979M3O" is closed. The last processed stream ID was 1.
+2023-09-02 04:25:14.096 +01:00 [DBG] Connection id "0HMTBCG979M3O" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-02 04:25:14.128 +01:00 [DBG] Connection id "0HMTBCG979M3O" stopped.
+2023-09-02 04:25:32.814 +01:00 [DBG] Connection id "0HMTBCG979M3P" accepted.
+2023-09-02 04:25:32.817 +01:00 [DBG] Connection id "0HMTBCG979M3P" started.
+2023-09-02 04:25:32.833 +01:00 [DBG] Connection id "0HMTBCG979M3Q" accepted.
+2023-09-02 04:25:32.834 +01:00 [DBG] Connection id "0HMTBCG979M3P" received FIN.
+2023-09-02 04:25:32.834 +01:00 [DBG] Connection id "0HMTBCG979M3Q" started.
+2023-09-02 04:25:32.838 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-09-02 04:25:32.838 +01:00 [DBG] Connection 0HMTBCG979M3Q established using the following protocol: "Tls12"
+2023-09-02 04:25:32.839 +01:00 [DBG] Connection id "0HMTBCG979M3P" stopped.
+2023-09-02 04:25:32.842 +01:00 [DBG] Connection id "0HMTBCG979M3P" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-02 04:25:32.844 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/api/villaAPI - -
+2023-09-02 04:25:32.845 +01:00 [DBG] 1 candidate(s) found for the request path '/api/villaAPI'
+2023-09-02 04:25:32.845 +01:00 [DBG] Endpoint 'MagicVilla_VillaAPI.Controllers.VillaAPIController.GetVillas (MagicVilla_VillaAPI)' with route pattern 'api/villaAPI' is valid for the request path '/api/villaAPI'
+2023-09-02 04:25:32.845 +01:00 [DBG] Request matched endpoint 'MagicVilla_VillaAPI.Controllers.VillaAPIController.GetVillas (MagicVilla_VillaAPI)'
+2023-09-02 04:25:32.846 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-02 04:25:32.848 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-09-02 04:25:32.850 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-09-02 04:25:32.852 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/api/villaAPI - - - 500 - text/plain;+charset=utf-8 8.6824ms
+2023-09-02 04:25:34.120 +01:00 [DBG] Connection id "0HMTBCG979M3Q" received FIN.
+2023-09-02 04:25:34.120 +01:00 [DBG] Connection id "0HMTBCG979M3Q" is closed. The last processed stream ID was 1.
+2023-09-02 04:25:34.120 +01:00 [DBG] Connection id "0HMTBCG979M3Q" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-02 04:25:34.130 +01:00 [DBG] Connection id "0HMTBCG979M3Q" stopped.
+2023-09-02 04:34:09.077 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-09-02 04:34:09.292 +01:00 [DBG] Hosting starting
+2023-09-02 04:34:09.370 +01:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-09-02 04:34:09.376 +01:00 [DBG] Reading data from file 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys\key-8bf52a84-96c1-40bc-b80f-a959d7573a4d.xml'.
+2023-09-02 04:34:09.395 +01:00 [DBG] Found key {8bf52a84-96c1-40bc-b80f-a959d7573a4d}.
+2023-09-02 04:34:09.420 +01:00 [DBG] Considering key {8bf52a84-96c1-40bc-b80f-a959d7573a4d} with expiration date 2023-11-10 02:01:35Z as default key.
+2023-09-02 04:34:09.425 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-09-02 04:34:09.434 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2023-09-02 04:34:09.436 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-09-02 04:34:09.449 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-09-02 04:34:09.453 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-09-02 04:34:09.458 +01:00 [DBG] Using key {8bf52a84-96c1-40bc-b80f-a959d7573a4d} as the default key.
+2023-09-02 04:34:09.460 +01:00 [DBG] Key ring with default key {8bf52a84-96c1-40bc-b80f-a959d7573a4d} was loaded during application startup.
+2023-09-02 04:34:09.734 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 7C63FE5BAC6B0E4450DB5555CD951C5F06C04E54)
+2023-09-02 04:34:09.786 +01:00 [INF] Now listening on: https://localhost:7132
+2023-09-02 04:34:09.787 +01:00 [INF] Now listening on: http://localhost:5050
+2023-09-02 04:34:09.787 +01:00 [DBG] Loaded hosting startup assembly MagicVilla_VillaAPI
+2023-09-02 04:34:09.787 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-09-02 04:34:09.787 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-09-02 04:34:09.787 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-02 04:34:09.787 +01:00 [INF] Hosting environment: Development
+2023-09-02 04:34:09.787 +01:00 [INF] Content root path: C:\Users\admin\source\repos\MagicVilla\MagicVilla_VillaAPI\
+2023-09-02 04:34:09.788 +01:00 [DBG] Hosting started
+2023-09-02 04:34:09.991 +01:00 [DBG] Connection id "0HMTBCLS3BNVD" received FIN.
+2023-09-02 04:34:09.991 +01:00 [DBG] Connection id "0HMTBCLS3BNVC" received FIN.
+2023-09-02 04:34:10.022 +01:00 [DBG] Connection id "0HMTBCLS3BNVD" accepted.
+2023-09-02 04:34:10.022 +01:00 [DBG] Connection id "0HMTBCLS3BNVC" accepted.
+2023-09-02 04:34:10.025 +01:00 [DBG] Connection id "0HMTBCLS3BNVD" started.
+2023-09-02 04:34:10.025 +01:00 [DBG] Connection id "0HMTBCLS3BNVC" started.
+2023-09-02 04:34:10.053 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-09-02 04:34:10.053 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-09-02 04:34:10.109 +01:00 [DBG] Connection id "0HMTBCLS3BNVD" stopped.
+2023-09-02 04:34:10.109 +01:00 [DBG] Connection id "0HMTBCLS3BNVC" stopped.
+2023-09-02 04:34:10.115 +01:00 [DBG] Connection id "0HMTBCLS3BNVC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-02 04:34:10.117 +01:00 [DBG] Connection id "0HMTBCLS3BNVD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-02 04:34:10.333 +01:00 [DBG] Connection id "0HMTBCLS3BNVE" accepted.
+2023-09-02 04:34:10.363 +01:00 [DBG] Connection id "0HMTBCLS3BNVE" started.
+2023-09-02 04:34:10.604 +01:00 [DBG] Connection id "0HMTBCLS3BNVE" received FIN.
+2023-09-02 04:34:10.605 +01:00 [DBG] Connection id "0HMTBCLS3BNVF" accepted.
+2023-09-02 04:34:10.609 +01:00 [DBG] Connection id "0HMTBCLS3BNVF" started.
+2023-09-02 04:34:10.621 +01:00 [DBG] Connection id "0HMTBCLS3BNVF" received FIN.
+2023-09-02 04:34:10.625 +01:00 [DBG] Connection id "0HMTBCLS3BNVG" accepted.
+2023-09-02 04:34:10.625 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-09-02 04:34:10.626 +01:00 [DBG] Connection id "0HMTBCLS3BNVG" started.
+2023-09-02 04:34:10.628 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-09-02 04:34:10.629 +01:00 [DBG] Connection id "0HMTBCLS3BNVE" stopped.
+2023-09-02 04:34:10.629 +01:00 [DBG] Connection id "0HMTBCLS3BNVF" stopped.
+2023-09-02 04:34:10.630 +01:00 [DBG] Connection id "0HMTBCLS3BNVE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-02 04:34:10.631 +01:00 [DBG] Connection id "0HMTBCLS3BNVF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-02 04:34:10.662 +01:00 [DBG] Connection 0HMTBCLS3BNVG established using the following protocol: "Tls12"
+2023-09-02 04:34:10.808 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger - -
+2023-09-02 04:34:10.909 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-09-02 04:34:10.976 +01:00 [DBG] No candidates found for the request path '/swagger'
+2023-09-02 04:34:10.976 +01:00 [DBG] Request did not match any endpoints
+2023-09-02 04:34:11.103 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger - - - 301 0 - 306.7557ms
+2023-09-02 04:34:11.133 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger/index.html - -
+2023-09-02 04:34:11.135 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-09-02 04:34:11.135 +01:00 [DBG] Request did not match any endpoints
+2023-09-02 04:34:11.494 +01:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-09-02 04:34:11.830 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger/swagger-ui.css - -
+2023-09-02 04:34:11.831 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2023-09-02 04:34:11.831 +01:00 [DBG] Request did not match any endpoints
+2023-09-02 04:34:11.838 +01:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-09-02 04:34:11.844 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger/swagger-ui-bundle.js - -
+2023-09-02 04:34:11.844 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2023-09-02 04:34:11.844 +01:00 [DBG] Request did not match any endpoints
+2023-09-02 04:34:11.845 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger/swagger-ui-standalone-preset.js - -
+2023-09-02 04:34:11.845 +01:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2023-09-02 04:34:11.845 +01:00 [DBG] Request did not match any endpoints
+2023-09-02 04:34:11.845 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/_framework/aspnetcore-browser-refresh.js - -
+2023-09-02 04:34:11.886 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger/index.html - - - 200 - text/html;charset=utf-8 752.2772ms
+2023-09-02 04:34:11.897 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/_framework/aspnetcore-browser-refresh.js - - - 200 12370 application/javascript;+charset=utf-8 51.4680ms
+2023-09-02 04:34:11.905 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-09-02 04:34:11.905 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-09-02 04:34:11.907 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 62.2044ms
+2023-09-02 04:34:11.907 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger/swagger-ui.css - - - 200 144929 text/css 76.3914ms
+2023-09-02 04:34:11.913 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/_vs/browserLink - -
+2023-09-02 04:34:11.983 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-09-02 04:34:11.984 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 139.8808ms
+2023-09-02 04:34:12.018 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 105.0642ms
+2023-09-02 04:34:12.609 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/swagger/v1/swagger.json - -
+2023-09-02 04:34:12.609 +01:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-09-02 04:34:12.609 +01:00 [DBG] Request did not match any endpoints
+2023-09-02 04:34:13.052 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 443.2757ms
+2023-09-02 04:34:14.853 +01:00 [DBG] Connection id "0HMTBCLS3BNVG" received FIN.
+2023-09-02 04:34:14.868 +01:00 [DBG] Connection id "0HMTBCLS3BNVG" is closed. The last processed stream ID was 15.
+2023-09-02 04:34:14.868 +01:00 [DBG] Connection id "0HMTBCLS3BNVG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-02 04:34:14.884 +01:00 [DBG] Connection id "0HMTBCLS3BNVG" stopped.
+2023-09-02 04:34:30.827 +01:00 [DBG] Connection id "0HMTBCLS3BNVH" accepted.
+2023-09-02 04:34:30.828 +01:00 [DBG] Connection id "0HMTBCLS3BNVH" started.
+2023-09-02 04:34:30.837 +01:00 [DBG] Connection id "0HMTBCLS3BNVI" accepted.
+2023-09-02 04:34:30.846 +01:00 [DBG] Connection id "0HMTBCLS3BNVI" started.
+2023-09-02 04:34:30.846 +01:00 [DBG] Connection id "0HMTBCLS3BNVH" received FIN.
+2023-09-02 04:34:30.858 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-09-02 04:34:30.858 +01:00 [DBG] Connection 0HMTBCLS3BNVI established using the following protocol: "Tls12"
+2023-09-02 04:34:30.860 +01:00 [DBG] Connection id "0HMTBCLS3BNVH" stopped.
+2023-09-02 04:34:30.860 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7132/api/villaAPI - -
+2023-09-02 04:34:30.860 +01:00 [DBG] Connection id "0HMTBCLS3BNVH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-02 04:34:30.881 +01:00 [DBG] 1 candidate(s) found for the request path '/api/villaAPI'
+2023-09-02 04:34:30.893 +01:00 [DBG] Endpoint 'MagicVilla_VillaAPI.Controllers.VillaAPIController.GetVillas (MagicVilla_VillaAPI)' with route pattern 'api/villaAPI' is valid for the request path '/api/villaAPI'
+2023-09-02 04:34:30.893 +01:00 [DBG] Request matched endpoint 'MagicVilla_VillaAPI.Controllers.VillaAPIController.GetVillas (MagicVilla_VillaAPI)'
+2023-09-02 04:34:30.894 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-09-02 04:34:31.360 +01:00 [DBG] Successfully validated the token.
+2023-09-02 04:34:31.361 +01:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2023-09-02 04:34:31.371 +01:00 [DBG] Authorization was successful.
+2023-09-02 04:34:31.372 +01:00 [INF] Executing endpoint 'MagicVilla_VillaAPI.Controllers.VillaAPIController.GetVillas (MagicVilla_VillaAPI)'
+2023-09-02 04:34:31.410 +01:00 [INF] Route matched with {action = "GetVillas", controller = "VillaAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MagicVilla_VillaAPI.Models.APIResponse]] GetVillas() on controller MagicVilla_VillaAPI.Controllers.VillaAPIController (MagicVilla_VillaAPI).
+2023-09-02 04:34:31.411 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-09-02 04:34:31.411 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-09-02 04:34:31.412 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-09-02 04:34:31.412 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-09-02 04:34:31.412 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-09-02 04:34:31.413 +01:00 [DBG] Executing controller factory for controller MagicVilla_VillaAPI.Controllers.VillaAPIController (MagicVilla_VillaAPI)
+2023-09-02 04:34:31.643 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-09-02 04:34:31.857 +01:00 [DBG] Executed controller factory for controller MagicVilla_VillaAPI.Controllers.VillaAPIController (MagicVilla_VillaAPI)
+2023-09-02 04:34:31.860 +01:00 [INF] Getting all Villas
+2023-09-02 04:34:33.278 +01:00 [INF] Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+2023-09-02 04:34:33.377 +01:00 [DBG] Compiling query expression: 
+'DbSet<Villa>()'
+2023-09-02 04:34:33.674 +01:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Villa>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Villa.VillaId (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Villa.Amenity (string) Required, 1], [Property: Villa.CreatedDate (DateTime) Required, 2], [Property: Villa.Details (string) Required, 3], [Property: Villa.ImageUrl (string) Required, 4], [Property: Villa.Name (string) Required, 5], [Property: Villa.Occupancy (int) Required, 6], [Property: Villa.Rate (double) Required, 7], [Property: Villa.SquareFit (int) Required, 8], [Property: Villa.UpdatedDate (DateTime) Required, 9] }
+        SELECT v.VillaId, v.Amenity, v.CreatedDate, v.Details, v.ImageUrl, v.Name, v.Occupancy, v.Rate, v.SquareFit, v.UpdatedDate
+        FROM Villas AS v), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Villa>, 
+    MagicVilla_VillaAPI.Data.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)'
+2023-09-02 04:34:33.760 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-09-02 04:34:33.835 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (73ms).
+2023-09-02 04:34:33.857 +01:00 [DBG] Opening connection to database 'Villas' on server 'DESKTOP-BC346OD\SQLEXPRESS'.
+2023-09-02 04:34:34.394 +01:00 [DBG] Opened connection to database 'Villas' on server 'DESKTOP-BC346OD\SQLEXPRESS'.
+2023-09-02 04:34:34.410 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[VillaId], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[SquareFit], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+2023-09-02 04:34:34.508 +01:00 [INF] Executed DbCommand (95ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[VillaId], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[SquareFit], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+2023-09-02 04:34:34.603 +01:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-02 04:34:34.673 +01:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-02 04:34:34.673 +01:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-02 04:34:34.673 +01:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-02 04:34:34.673 +01:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-02 04:34:34.673 +01:00 [DBG] Context 'ApplicationDbContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-09-02 04:34:34.687 +01:00 [DBG] A data reader was disposed.
+2023-09-02 04:34:34.697 +01:00 [DBG] Closing connection to database 'Villas' on server 'DESKTOP-BC346OD\SQLEXPRESS'.
+2023-09-02 04:34:34.710 +01:00 [DBG] Closed connection to database 'Villas' on server 'DESKTOP-BC346OD\SQLEXPRESS'.
+2023-09-02 04:34:34.756 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2023-09-02 04:34:34.761 +01:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-09-02 04:34:34.762 +01:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-09-02 04:34:34.762 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-09-02 04:34:34.762 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-09-02 04:34:34.763 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-09-02 04:34:34.763 +01:00 [INF] Executing OkObjectResult, writing value of type 'MagicVilla_VillaAPI.Models.APIResponse'.
+2023-09-02 04:34:34.998 +01:00 [INF] Executed action MagicVilla_VillaAPI.Controllers.VillaAPIController.GetVillas (MagicVilla_VillaAPI) in 3579.218ms
+2023-09-02 04:34:35.000 +01:00 [INF] Executed endpoint 'MagicVilla_VillaAPI.Controllers.VillaAPIController.GetVillas (MagicVilla_VillaAPI)'
+2023-09-02 04:34:35.016 +01:00 [DBG] 'ApplicationDbContext' disposed.
+2023-09-02 04:34:35.027 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7132/api/villaAPI - - - 200 1797 application/json;+charset=utf-8 4167.0352ms
